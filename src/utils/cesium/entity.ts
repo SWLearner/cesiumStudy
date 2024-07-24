@@ -26,7 +26,7 @@ export function addEntity(viewer: Cesium.Viewer) {
   });
   addBox(viewer, { coordinates: [105, 35, 200000.0] });
   addEllipsoid(viewer);
-  const model=addModel(viewer);
+  const model=addModel(viewer,[118, 30, 5000]);
   const degree = 90;
   const heading = Cesium.Math.toRadians(degree); //模型航向
   const pitch = 0; //俯仰角
@@ -40,13 +40,13 @@ export function addEntity(viewer: Cesium.Viewer) {
 // 加点
 export function addPoint(
   viewer: Cesium.Viewer,
-  coordinates: [number, number, number]
+  coordinates: [number, number, number]|Cesium.Cartesian3
 ) {
   const point = new Cesium.Entity({
-    id: "point", //唯一标识符
+    // id: "point", //唯一标识符
     name: "点",
     show: true, //控制是否显示
-    position: Cesium.Cartesian3.fromDegrees(...coordinates), //位置，需要将坐标转为笛卡尔直角坐标
+    position: (coordinates as Cesium.Cartesian3) ||Cesium.Cartesian3.fromDegrees(...(coordinates as [number, number, number])), //位置，需要将坐标转为笛卡尔直角坐标
     point: {
       color: Cesium.Color.GOLD, //颜色
       pixelSize: 10, //大小
@@ -262,12 +262,12 @@ export function addEllipsoid(viewer: Cesium.Viewer) {
   return ellipsoid;
 }
 // 加小车模型
-export function addModel(viewer: Cesium.Viewer) {
+export function addModel(viewer: Cesium.Viewer,coordinates: [number, number, number]|Cesium.Cartesian3) {
   const model = new Cesium.Entity({
-    id: "model", //id 唯一
+    // id: "model", //id 唯一
     name: "小车模型", //名称
     show: true, //显示
-    position: Cesium.Cartesian3.fromDegrees(118, 30, 5000), //小车位置
+    position: (coordinates as Cesium.Cartesian3) ||Cesium.Cartesian3.fromDegrees(...(coordinates as [number, number, number])),//小车位置
     model: {
       uri: "../../../src/assets/models/car.glb",
       minimumPixelSize: 600, //模型最小
@@ -285,6 +285,10 @@ export function addBillboard(viewer: Cesium.Viewer) {
   const billboard = {
     id: "billboard",
     name: "广告牌",
+    properties:{
+      name:'人',
+      type:"billboard"
+    },
     show: true,
     position: Cesium.Cartesian3.fromDegrees(108, 30, 50),
     billboard: {

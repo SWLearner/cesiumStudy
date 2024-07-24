@@ -1,51 +1,91 @@
 <template>
-    <!-- 工具集 -->
-    <div class="tool">
-        <el-popover class='popover' placement="left" width=180px trigger="click">
-            <template #reference>
-                <el-button class="edit" size="large" type="primary" circle>编辑</el-button>
-            </template>
-            <div>
-                <el-button size="large" type="primary" name="Point" 
-                    circle @click="tool.draw('Point')">点</el-button>
-                <el-button size="large" type="primary" name="LineString" 
-                    circle @click="tool.draw('LineString')">线</el-button>
-                <el-button size="large" type="primary" name="Polygon" 
-                    circle @click="tool.draw('Polygon')">面</el-button>
-            </div>
-        </el-popover>
-        <el-popover class='popover' placement="left" width=120px trigger="click">
-            <template #reference>
-                <el-button class="edit" size="large" type="primary" circle>测量</el-button>
-            </template>
-            <div>
-                <el-button size="large" type="primary" name="Length" 
-                    circle>测线</el-button>
-                <el-button size="large" type="primary" name="Area"
-                    circle>侧面</el-button>
-            </div>
-        </el-popover>
-        <el-button class="edit" size="large" type="primary"  circle>清除</el-button>
-        <el-button class="edit" size="large" type="primary" circle>放大</el-button>
-        <el-button class="edit" size="large" type="primary" circle>缩小</el-button>
-    </div>
+  <!-- 工具集 -->
+  <div class="tool">
+    <el-popover class="popover" placement="left" width="240px" trigger="click">
+      <template #reference>
+        <el-button class="edit" size="large" type="primary" circle
+          >编辑</el-button
+        >
+      </template>
+      <div>
+        <el-button
+          size="large"
+          type="primary"
+          name="Point"
+          circle
+          @click="tool.draw('point')"
+          >点</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="tool.draw('line')"
+          >线</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="Polygon"
+          circle
+          @click="tool.draw('polygon')"
+          >面</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="Polygon"
+          circle
+          @click="tool.draw('circle')"
+          >圆</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="Polygon"
+          circle
+          @click="tool.draw('rectangle')"
+          >正</el-button
+        >
+      </div>
+    </el-popover>
+    <el-popover class="popover" placement="left" width="120px" trigger="click">
+      <template #reference>
+        <el-button class="edit" size="large" type="primary" circle 
+          >测量</el-button
+        >
+      </template>
+      <div>
+        <el-button size="large" type="primary" name="Length" circle @click="tool.measureLine()"
+          >测线</el-button
+        >
+        <el-button size="large" type="primary" name="Area" circle @click="tool.measureArea()"
+          >侧面</el-button
+        >
+      </div>
+    </el-popover>
+    <el-button class="edit" size="large" type="primary" circle>清除</el-button>
+    <el-button class="edit" size="large" type="primary" circle>放大</el-button>
+    <el-button class="edit" size="large" type="primary" circle>缩小</el-button>
+  </div>
 </template>
 
 <script setup lang="ts">
-import {onMounted} from 'vue'
-import {CesiumDrawTool} from '../utils/cesium/cesiumTool'
-import { mitter } from '@/stores/mitt'
-
-let viewer:any;
+import { onMounted } from "vue";
+import { mitBus } from "@/stores/mitt";
+// import { handlerDrawClick } from "@/utils/cesium/interactDraw";
+import {CesiumDrawTool} from '@/utils/cesium/cesiumTool'
+let viewer: any;
 let tool:CesiumDrawTool
-
-
-onMounted(()=>{
-  mitter.on('viewer',res=>{
-    viewer=res;
-    tool = new CesiumDrawTool(viewer);
-  })
-})
+onMounted(() => {
+  mitBus.on("viewer", (res) => {
+    viewer = res;
+    //开启地形检测
+    viewer.scene.globe.depthTestAgainstTerrain = true;
+    tool=new CesiumDrawTool(viewer)
+  });
+});
 </script>
 
 <style scoped>
@@ -61,20 +101,19 @@ onMounted(()=>{
 .el-button {
   background: #0c0c66;
 }
-.el-button:hover{
+.el-button:hover {
   background: #9c9cee;
 }
-.el-button:focus{
+.el-button:focus {
   background: #9c9cee;
 }
-.el-button+.el-button{
+.el-button + .el-button {
   margin-left: 0px;
 }
 .edit {
   margin-left: 0px;
   margin-top: 12px;
 }
-
 
 /* 测量消息提示样式-在此处不起作用，放在app.vue里 */
 .ol-tooltip {
@@ -120,5 +159,4 @@ onMounted(()=>{
 .hidden {
   display: none;
 }
-
 </style>

@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import * as Cesium from "cesium";
 import { onMounted } from "vue";
-import { mitter } from "@/stores/mitt";
+import { mitBus } from "@/stores/mitt";
 import {addEntity} from '@/utils/cesium/entity'
-import {addPrimitive} from '@/utils/cesium/primitive'
-import {leftClickGetAttributes} from '@/utils/cesium/eventClick' 
+// import {addPrimitive} from '@/utils/cesium/primitive'
+import {leftClickGetAttributes} from '@/utils/cesium/eventClick'
+import tool from "@/components/Tool.vue";
 let viewer: Cesium.Viewer;
 Cesium.Ion.defaultAccessToken =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDljOTg3Yy03ZDkxLTRkNTAtODhhYy03ZDIzNTU0YzgxZjYiLCJpZCI6MTMxNzg4LCJpYXQiOjE2ODA0ODg3NzB9.BK0bnFs_lhI-RLOZNMBxiOyGI8ZOGwG7Cok07TECti0";
 onMounted(() => {
   iniMap();
-  mitter.emit("viewer", viewer);
 });
 async function iniMap() {
   try {
@@ -19,25 +19,28 @@ async function iniMap() {
       vrButton: false, //
       homeButton: true,
       infoBox: false, //显示信息框
-      selectionIndicator:false,
+      selectionIndicator: false,
+      animation: true,
+      timeline: true,
       // sceneModePicker: true,//3D/2D选择器
       // terrain: Cesium.Terrain.fromWorldTerrain(),
       // terrainProvider:await Cesium.createWorldTerrainAsync({
       //   requestWaterMask: true,
       //   requestVertexNormals: true
       // }),
-      terrainProvider:await Cesium.createWorldTerrainAsync(),
+      terrainProvider: await Cesium.createWorldTerrainAsync(),
       //terrainProvider:await Cesium.ArcGISTiledElevationTerrainProvider.fromUrl("https://services.arcgisonline.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer"),
       //显示模型阴影
       shadows: true,
     });
   } catch (error) {
     console.log(error);
+  } finally {
+    mitBus.emit("viewer", viewer);
   }
   viewer.camera.setView({
-    destination: Cesium.Cartesian3.fromDegrees(108, 40, 6000000.0),
+    destination: Cesium.Cartesian3.fromDegrees(113, 30, 5000000.0),
   });
-  addPrimitive(viewer)
   addEntity(viewer)
   leftClickGetAttributes(viewer)
 }
@@ -46,6 +49,7 @@ async function iniMap() {
 <template>
   <div id="mymap">
     <div id="container"></div>
+    <tool></tool>
   </div>
 </template>
 

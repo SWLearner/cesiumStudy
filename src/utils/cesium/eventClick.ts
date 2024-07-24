@@ -23,7 +23,7 @@ function leftClick(viewer: Cesium.Viewer, callBack: Function) {
 }
 function handleAttributes(info: any) {
   if (info instanceof Cesium.Entity) {
-    console.log("单击Entity属性为", info);
+    console.log("单击Entity属性为", info.properties?.getValue(Cesium.JulianDate.now()));
   } else {
     console.log("单击实体属性为", info);
   }
