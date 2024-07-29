@@ -77,6 +77,15 @@ export default defineConfig({
         //
         rewrite: (path) => path.replace(/^\/tdt/, ''),
       },
+      '/model': {
+        //代理服务地址
+        target: 'http://localhost:9003',
+        //是否改变原域名；是否允许跨域
+        changeOrigin: true,
+        //如果是https接口需要配置此参数
+        // secure:false,
+        //
+      },
       '/mtxy-system-service': {
         target: `${urlIP}`,
         changeOrigin: true,

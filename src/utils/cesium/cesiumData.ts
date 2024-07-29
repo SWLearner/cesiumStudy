@@ -26,6 +26,21 @@ export async function addArcGISTerrain(viewer: Cesium.Viewer) {
     );
   viewer.terrainProvider = terrainProvider;
 }
+// 添加本地地形
+export async function addLocalTerrain(viewer: Cesium.Viewer) {
+  const terrainProvider =
+    await Cesium.CesiumTerrainProvider.fromUrl(
+      "../../../src/assets/data/terrain"
+    );
+  viewer.terrainProvider = terrainProvider;
+    viewer.camera.setView({
+      destination: Cesium.Cartesian3.fromArray([
+        1.980945937983933,
+        0.4101498913617981,
+        95712.63736220135
+    ]),
+  })
+}
 // arcGIS在线影像图
 export async function arcGISOnline(viewer: Cesium.Viewer) {
   viewer.imageryLayers.removeAll();
@@ -164,7 +179,7 @@ export const gaoDeOnline = (viewer: Cesium.Viewer) => {
   viewer.imageryLayers.addImageryProvider(zhuji);
 };
 export function loadData(viewer: Cesium.Viewer) {
-  lasData(viewer);
+  osgbData(viewer);
 }
 // 单张图片
 export const singlePhoto = (viewer: Cesium.Viewer) => {
@@ -224,14 +239,48 @@ export const gltfData = async (viewer: Cesium.Viewer) => {
   });
 };
 // 加载tiff  ？
-export const tiffData=(viewer: Cesium.Viewer)=>{
-viewer.zoomTo(viewer.scene.imageryLayers.addImageryProvider(new Cesium.UrlTemplateImageryProvider({
-  url:'../../../src/assets/data/dida/{z}/{x}/{y}.png',
-})))
-}
+export const tiffData = (viewer: Cesium.Viewer) => {
+  viewer.zoomTo(
+    viewer.scene.imageryLayers.addImageryProvider(
+      new Cesium.UrlTemplateImageryProvider({
+        url: "../../../src/assets/data/dida/{z}/{x}/{y}.png",
+      })
+    )
+  );
+};
 // 加载点云数据
-export const lasData=async(viewer: Cesium.Viewer)=>{
-  let tileSet = viewer.scene.primitives.add(await Cesium.Cesium3DTileset.fromUrl('../../../src/assets/data/las/tileset.json', {}))
-  ; 
-viewer.flyTo(tileSet);//定位过去
-}
+export const lasData = async (viewer: Cesium.Viewer) => {
+  let tileSet = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromUrl(
+      // "../../../src/assets/data/las/tileset.json",
+      "http://localhost:9003/model/tkixw5aqX/tileset.json",
+      {}
+    )
+  );
+  tileSet.style = new Cesium.Cesium3DTileStyle({
+    color: {
+      conditions: [
+        ["${z} >= 100", 'color("#11f524", 0.5)'],
+        ["${z} >= 50", 'color("#f3581b")'],
+        ["${z} >= 0", 'color("blue")'],
+      ],
+    },
+    show: true,
+    meta: {
+      description: '"Building id ${id} has height ${z}."',
+    },
+  });
+  viewer.flyTo(tileSet); //定位过去
+};
+// 添加倾斜模型
+export const osgbData = async (viewer: Cesium.Viewer) => {
+  let tileSet = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromUrl(
+      "../../../src/assets/data/osgb/tileset.json",
+      // "http://localhost:9003/model/tkixw5aqX/tileset.json",
+      {}
+    )
+  );
+  viewer.flyTo(tileSet); //定位过去
+};
+

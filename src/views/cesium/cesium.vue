@@ -5,7 +5,7 @@ import { mitBus } from "@/stores/mitt";
 // import {addEntity} from '@/utils/cesium/entity'
 // import {addPrimitive,createPolygonTest} from '@/utils/cesium/primitive'
 // import {leftClickGetAttributes} from '@/utils/cesium/eventClick'
-// import tool from "@/components/Tool.vue";
+import tool from "@/components/Tool.vue";
 import {loadData} from '@/utils/cesium/cesiumData'
 let viewer: Cesium.Viewer;
 Cesium.Ion.defaultAccessToken =
@@ -29,7 +29,7 @@ async function iniMap() {
       //   requestWaterMask: true,
       //   requestVertexNormals: true
       // }),
-      terrainProvider: await Cesium.createWorldTerrainAsync(),
+      // terrainProvider: await Cesium.createWorldTerrainAsync(),
       // terrainProvider:await Cesium.ArcGISTiledElevationTerrainProvider.fromUrl("https://services.arcgisonline.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer"),
       //显示模型阴影
       shadows: true,
@@ -57,7 +57,7 @@ async function iniMap() {
 <template>
   <div id="mymap">
     <div id="container"></div>
-    <!-- <tool></tool> -->
+    <tool></tool>
   </div>
 </template>
 
