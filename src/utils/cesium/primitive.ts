@@ -380,7 +380,7 @@ export const createPolygon = (
     primitiveOutLine = new Cesium.Primitive(outLineInstance);
   }
   viewer.scene.primitives.add(primitive);
-  viewer.scene.primitives.add(primitiveOutLine);
+  // viewer.scene.primitives.add(primitiveOutLine);
   return primitive;
 };
 // 大数据量的primitive
@@ -468,3 +468,63 @@ export function mergePolygon(viewer: Cesium.Viewer) {
   });
   viewer.scene.primitives.add(mergeInstances);
 }
+interface polygonOptions1 {
+  // 形成底面的坐标串
+  coordinates: any;
+  // 底面离地面高度
+  heightAboveGround?: number;
+  // 底面的拉伸高度
+  polyHeight?: number;
+  // 多边形面的颜色
+  color?: string;
+  // 多边形轮廓的颜色
+  outLineColor?: string;
+}
+export const createPolygonTest = (
+  viewer: Cesium.Viewer,
+  options: polygonOptions1
+): Cesium.GroundPrimitive | Cesium.Primitive => {
+  const {
+    coordinates,
+    color = "#1af35b",
+    outLineColor = "#000",
+    heightAboveGround = 0,
+    polyHeight = 100000000,
+  } = options;
+
+  const geometryInstance = {
+    geometryInstances: new Cesium.GeometryInstance({
+      geometry: new Cesium.PolygonGeometry({
+        polygonHierarchy: new Cesium.PolygonHierarchy(
+          coordinates as []
+        ),
+        // 离地面高度
+        // height: heightAboveGround,
+        // 离地面高度加上底面的拉伸高度
+        extrudedHeight: heightAboveGround + polyHeight,
+        perPositionHeight:true
+      }),
+      attributes: {
+        color: Cesium.ColorGeometryInstanceAttribute.fromColor(
+          Cesium.Color.fromCssColorString(color)
+        ),
+      },
+    }),
+    appearance: new Cesium.PerInstanceColorAppearance({
+      flat: true,
+      translucent: true, //是否透明
+    }),
+  };
+  
+  let primitive;
+  let primitiveOutLine;
+  if (heightAboveGround === 0 && polyHeight === 0) {
+    //贴地面
+    primitive = new Cesium.GroundPrimitive(geometryInstance);
+  } else {
+    primitive = new Cesium.Primitive(geometryInstance);
+  }
+  viewer.scene.primitives.add(primitive);
+  // viewer.scene.primitives.add(primitiveOutLine);
+  return primitive;
+};

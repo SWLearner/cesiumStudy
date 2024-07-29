@@ -1,6 +1,71 @@
 <template>
   <!-- 工具集 -->
   <div class="tool">
+    <el-popover class="popover" placement="left" width="340px" trigger="click">
+      <template #reference>
+        <el-button class="edit" size="large" type="primary" circle
+          >地图</el-button
+        >
+      </template>
+      <div>
+        <el-button
+          size="large"
+          type="primary"
+          name="Point"
+          circle
+          @click="tdtOnline(viewer,'vec_w','vec','tdtVec')"
+          >天矢</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="tdtOnline(viewer,'img_w','img','tdtImg')"
+          >天影</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="arcGISOnline(viewer)"
+          >arcGIS</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="gaoDeOnline(viewer)"
+          >高德</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="addWmsLayers(viewer)"
+          >WMS</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="addWmtsLayers(viewer)"
+          >WMTS</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="addTmsLayers(viewer)"
+          >TMS</el-button
+        >
+      </div>
+    </el-popover>
     <el-popover class="popover" placement="left" width="240px" trigger="click">
       <template #reference>
         <el-button class="edit" size="large" type="primary" circle
@@ -76,6 +141,7 @@ import { onMounted } from "vue";
 import { mitBus } from "@/stores/mitt";
 // import { handlerDrawClick } from "@/utils/cesium/interactDraw";
 import {CesiumDrawTool} from '@/utils/cesium/cesiumTool'
+import {tdtOnline,arcGISOnline,gaoDeOnline,addWmsLayers,addWmtsLayers,addTmsLayers} from '@/utils/cesium/cesiumData'
 let viewer: any;
 let tool:CesiumDrawTool
 onMounted(() => {
@@ -84,6 +150,7 @@ onMounted(() => {
     //开启地形检测
     viewer.scene.globe.depthTestAgainstTerrain = true;
     tool=new CesiumDrawTool(viewer)
+    // 地图
   });
 });
 </script>
