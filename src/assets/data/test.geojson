@@ -1,0 +1,4750 @@
+{
+  "type": "FeatureCollection",
+  "name": "成都市剧院大学",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.500",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": "½õÀï"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.04738, 30.6484759] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.501",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0479992, 30.6380255] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.502",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0473706, 30.6465633] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.503",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.038681, 30.6467353] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.504",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÕÐÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0343909, 30.644598] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.505",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "China Merchant's Bank"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0392056, 30.6440175] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.615",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "He's"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0745102, 30.6253719] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.1949",
+        "code": 2002,
+        "fclass": "fire_station",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0655038, 30.6356139] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.6257",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "µÂ¿ËÊ¿"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0739616, 30.636037] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.6743",
+        "code": 2405,
+        "fclass": "hostel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.972822, 30.5752102] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.7240",
+        "code": 2081,
+        "fclass": "university",
+        "Name": "ËÄ´¨ÒôÀÖÑ§Ôº"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0766317, 30.6407642] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.7753",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Ð¡ÉÌµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0459268, 30.6187493] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.7754",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "ÒË¶¼±ö¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0462058, 30.6175121] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.7755",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "×ÔÈ»ÏÊ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0483877, 30.6174102] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.7993",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Somerset Riverside Chengdu"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0645426, 30.6485092] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.10231",
+        "code": 2006,
+        "fclass": "telephone",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0265158, 30.6435239] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.10232",
+        "code": 2513,
+        "fclass": "florist",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0251318, 30.6449269] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.10595",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÀÏ¼Ò×Ó"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0433717, 30.6466122] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.17484",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.046106, 30.6444847] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.19084",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0649967, 30.6243275] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.19085",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.06512, 30.6237761] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.19241",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "Ç§Ê¢°Ù»õ"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9970934, 30.6518686] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.19615",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Î÷Å©æäÕ¾"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0503082, 30.6432285] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.20980",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "ºìÅÆÂ¥¹ã³¡"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0277608, 30.6370536] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.20981",
+        "code": 2602,
+        "fclass": "atm",
+        "Name": "ÖÐ¹úÅ©ÒµÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0239693, 30.6295296] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.21041",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "¼ÒÀÖ¸£"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0276339, 30.6369865] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.21042",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "¿ÏµÂ»ù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0278867, 30.6370806] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.21043",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÒË±öÈ¼Ãæ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0239586, 30.6289496] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.21331",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹úÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0657356, 30.5384985] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24722",
+        "code": 2542,
+        "fclass": "bicycle_shop",
+        "Name": "Natooke ³É¶¼"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0553088, 30.637047] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24737",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0460577, 30.6156397] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24738",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "ÐÂ¶«·½Ç§ìû´ó¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0464841, 30.6154568] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24749",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "µÂ¿ËÊ¿"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0747074, 30.6265173] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24751",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Âþ¿§·È"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0647578, 30.6484557] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24752",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "wowo"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0787951, 30.6119569] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24753",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "9010"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0784732, 30.6105257] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24754",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0662384, 30.6178715] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24755",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "¿§·ÈË¹ÌØ¼Ó"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0790834, 30.6389852] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24756",
+        "code": 2512,
+        "fclass": "clothes",
+        "Name": "ÓÅÒÂ¿â"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0607231, 30.6037262] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24757",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.064139, 30.60451] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24769",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "3ºÅ¿§·È¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.075162, 30.6268383] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24776",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": "ÂíÇð±ÈÇð¿§·È¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.058271, 30.6345019] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24777",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "ºÃÓÖ¶à"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0582998, 30.6354273] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24780",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0625425, 30.6338847] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24781",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0543567, 30.62903] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24782",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0544077, 30.6319738] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24786",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0645537, 30.6217491] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24787",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0613836, 30.6274685] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24791",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.088838, 30.6318304] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24795",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "ºÃÓÖ¶à"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0728144, 30.6274267] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24796",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "wowo"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0738659, 30.627039] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24797",
+        "code": 2110,
+        "fclass": "hospital",
+        "Name": "°²ç÷¶ù¸¾²úÒ½Ôº"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0779287, 30.6104738] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24798",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "Hyper-Mart"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0787937, 30.6075478] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24799",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0652611, 30.6115989] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24810",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "¿ÏµÂ»ù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0547942, 30.6175228] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24812",
+        "code": 2016,
+        "fclass": "market_place",
+        "Name": "ÒæÃñ²ËÊÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.078958, 30.6079901] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24813",
+        "code": 2602,
+        "fclass": "atm",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0802926, 30.6388411] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24952",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "±ËµÂÎ÷²Í"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0743448, 30.6298486] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24953",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "±ËµÂÎ÷²Í"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0603956, 30.6172416] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24954",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.073879, 30.6272903] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24956",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0510567, 30.6173077] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24957",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÕÐÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0547662, 30.6187573] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24958",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0764092, 30.6104912] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24959",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0800289, 30.6173113] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24960",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0509106, 30.6277753] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24961",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "wowo"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0754957, 30.6111301] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24962",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "wowo"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0463009, 30.6284181] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24963",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "È«¼Ò"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0460648, 30.6285196] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24964",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú¹¤ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0491065, 30.6292859] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24965",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0492138, 30.6284504] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24966",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0502437, 30.6284689] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.24982",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "wowo"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0772217, 30.618806] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.25806",
+        "code": 2602,
+        "fclass": "atm",
+        "Name": "ÖÐ¹ú¹¤ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0498188, 30.6176743] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.25807",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹úÅ©ÒµÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0504875, 30.617223] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.25895",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0449062, 30.6484714] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.27491",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0750748, 30.6254998] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.27492",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0769104, 30.6248664] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.27493",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0750544, 30.6256979] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.27494",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0760349, 30.6264955] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.27495",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "ËÙ8¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0737245, 30.6266838] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.27496",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0728417, 30.6267507] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.27497",
+        "code": 2005,
+        "fclass": "post_office",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0827513, 30.6367428] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.28534",
+        "code": 2742,
+        "fclass": "viewpoint",
+        "Name": "Ä¾Å£Á÷Âí"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0475352, 30.6500406] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.29304",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "³É¶¼»·ÇòÖÐÐÄÌìÌÃÖÞ¼Ê´ó·¹µê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0611478, 30.5694475] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.29305",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "InterContinental Century City Chengdu"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0696903, 30.5620773] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.29723",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0881011, 30.6298273] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.29724",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0899796, 30.6307784] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.31313",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0548122, 30.5781751] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.32284",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Johnny 5 Doughnuts"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0566666, 30.6140032] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.32285",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "É¯ÄÈµÄµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.052139, 30.6169717] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.32812",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Kempinski"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0639366, 30.6209675] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.34065",
+        "code": 2722,
+        "fclass": "museum",
+        "Name": "Î÷ÄÏÃñ×å²©Îï¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0466857, 30.6416536] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.34918",
+        "code": 2518,
+        "fclass": "beverages",
+        "Name": "sugarbear"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.062864, 30.6275418] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.36425",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "³É¶¼Ð£ÓÑÖ®¼Ò"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0505524, 30.6421058] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.36527",
+        "code": 2007,
+        "fclass": "library",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0450435, 30.6409484] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.36528",
+        "code": 2602,
+        "fclass": "atm",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0487981, 30.6417053] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.36529",
+        "code": 2602,
+        "fclass": "atm",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.046626, 30.6423977] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.36530",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "ÎÄº²±ö¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0448879, 30.6396284] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.36531",
+        "code": 2083,
+        "fclass": "kindergarten",
+        "Name": "Î÷ÄÏÃñ×å´óÑ§Ó×¶ùÔ°"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0475111, 30.6436669] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.36532",
+        "code": 2405,
+        "fclass": "hostel",
+        "Name": "¼¾·çÇàÄêÂÃÉá"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0462988, 30.6388715] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40139",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "ºÎÊ¦ÉÕ¿¾"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0151338, 30.6541163] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40189",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "The Bookworm Cafe and LIbrary"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0633206, 30.6250465] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40320",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ºÎÊ¦ÉÕ¿¾"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0359749, 30.6435122] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40323",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "WoWo"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0162241, 30.654051] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40324",
+        "code": 2568,
+        "fclass": "laundry",
+        "Name": "Bonnych"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0156835, 30.6556427] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40325",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "007"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0156799, 30.6555942] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40326",
+        "code": 2502,
+        "fclass": "bakery",
+        "Name": "Andersen"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0156751, 30.6555385] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40327",
+        "code": 2528,
+        "fclass": "greengrocer",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0150916, 30.655492] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40330",
+        "code": 2528,
+        "fclass": "greengrocer",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0115422, 30.6542893] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.40892",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÇåË®ºÉ»¨Ê³·» - Lotus Vegetarian Restaurant"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0813048, 30.6277212] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.41048",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Hilton Chengdu"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0656563, 30.5519827] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.46753",
+        "code": 2304,
+        "fclass": "pub",
+        "Name": "Shamrock Bar & Restaurant"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0646282, 30.6281916] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.48641",
+        "code": 2405,
+        "fclass": "hostel",
+        "Name": "Mrs. Panda Hostel"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0705179, 30.6469199] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.48787",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "halal"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0669356, 30.6449893] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.48861",
+        "code": 2001,
+        "fclass": "police",
+        "Name": "ÈýÍßÒ¤ÅÉ³öËù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0736044, 30.6043455] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.48862",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Pizza Corner"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0741062, 30.6277342] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.48864",
+        "code": 2304,
+        "fclass": "pub",
+        "Name": "Beer Nest"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0722521, 30.6276901] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.48872",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Wonton King"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0709223, 30.6453339] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.49023",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "The Hotel Zen Urban Resort"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0744659, 30.6439606] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.50135",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": "jellyfish"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0752575, 30.6247664] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.50136",
+        "code": 2404,
+        "fclass": "guesthouse",
+        "Name": "Cici GH"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0545619, 30.6151002] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.50691",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Cubilose"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0519977, 30.6318088] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.51081",
+        "code": 2518,
+        "fclass": "beverages",
+        "Name": "Sichuan Emei-shan Zhuyeqing Tea"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0465, 30.6385986] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.51109",
+        "code": 2405,
+        "fclass": "hostel",
+        "Name": "Woke international youth hostel"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0437078, 30.6404462] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.51124",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.064966, 30.5487766] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.51134",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Mikes pizza"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.058028, 30.6131511] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.51135",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0646534, 30.6025358] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.52112",
+        "code": 2405,
+        "fclass": "hostel",
+        "Name": "woke international youth hostel"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0434558, 30.6404569] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.52745",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0428872, 30.6463301] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.52747",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0643985, 30.6343043] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.52754",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "¶«±±´ó°üÓñÁÖ½Ö"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0598317, 30.6296683] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.52758",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0557232, 30.629255] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.53147",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ºÍÔÃ¾ÆÂ¥"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0625047, 30.5932701] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.53148",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0610946, 30.5917048] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.53149",
+        "code": 2505,
+        "fclass": "department_store",
+        "Name": "¾Å·½¹ºÎïÖÐÐÄ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0628951, 30.5925041] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.53150",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.061134, 30.5938014] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.53194",
+        "code": 2525,
+        "fclass": "mobile_phone_shop",
+        "Name": "ÖÐ¹úÒÆ¶¯"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0582853, 30.5947375] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.53195",
+        "code": 2009,
+        "fclass": "courthouse",
+        "Name": "³É¶¼¸ßÐÂÇø·¨Ôº"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0626241, 30.5974613] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.53196",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Êñ¸®ÑçÓï"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0643016, 30.5916543] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.54945",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0244398, 30.6100652] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.55147",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0537187, 30.6148902] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.55153",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0538314, 30.6148333] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.55804",
+        "code": 2567,
+        "fclass": "travel_agent",
+        "Name": "Train Ticket Office"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0643515, 30.6390655] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56086",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0436953, 30.6465133] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56088",
+        "code": 2011,
+        "fclass": "embassy",
+        "Name": "°Í»ùË¹Ì¹³É¶¼×ÜÁìÊÂ¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.065698, 30.5533768] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56245",
+        "code": 2082,
+        "fclass": "school",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0566947, 30.6247571] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56246",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.05178, 30.625504] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56247",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0704247, 30.631758] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56347",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0555457, 30.6251069] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56743",
+        "code": 2524,
+        "fclass": "outdoor_shop",
+        "Name": "52 camp »§ÍâÕÛ¿ÛÂô³¡"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0458497, 30.6465103] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.56744",
+        "code": 2524,
+        "fclass": "outdoor_shop",
+        "Name": "Èý·ò»§ÍâÔË¶¯ÓÃÆ·(Îäºîìôµê)"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0440307, 30.6465784] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.57326",
+        "code": 2521,
+        "fclass": "gift_shop",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0428654, 30.6435882] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.59539",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "µÂ¿ËÊ¿"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0538023, 30.5528158] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.59972",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹úÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0551764, 30.636537] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.59973",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0477954, 30.6331209] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.60136",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0535343, 30.5530558] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61419",
+        "code": 2009,
+        "fclass": "courthouse",
+        "Name": "³É¶¼ÊÐ¸ßÐÂÇø¼ì²ìÔº"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0624743, 30.5982358] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61420",
+        "code": 2110,
+        "fclass": "hospital",
+        "Name": "³É¶¼ÊÐ¼±¾ÈÖ¸»ÓÖÐÐÄ(120)"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0513544, 30.5915278] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61696",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0391873, 30.6442847] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61706",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Ïã¸ñÈðÀ­¿§·È"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.044312, 30.646634] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61707",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0466674, 30.6466549] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61708",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú¹¤ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0471542, 30.6467687] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61710",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0543894, 30.6497056] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.61762",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0444665, 30.6455732] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62349",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "ººÔÏ¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0591896, 30.5941796] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62366",
+        "code": 2602,
+        "fclass": "atm",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.027627, 30.6109803] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62413",
+        "code": 2110,
+        "fclass": "hospital",
+        "Name": "À­ì³¶û¿ÚÇ»"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0524212, 30.5900136] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62414",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "³É¶¼Å©ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0524233, 30.5900805] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62415",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "¹þ¶û±õÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0523558, 30.5931985] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62416",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÍþË¹ÌØ»¨Ô°"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0528589, 30.5884167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62417",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0523149, 30.5970206] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62532",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0383161, 30.6398167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.62851",
+        "code": 2082,
+        "fclass": "school",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0737298, 30.5987293] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.63024",
+        "code": 2001,
+        "fclass": "police",
+        "Name": "ÌøÉ¡ËþÅÉ³öËù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0666701, 30.6298912] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.63026",
+        "code": 2002,
+        "fclass": "fire_station",
+        "Name": "³É¶¼ÊÐ¹«°²Ïû·ÀÖ§¶Ó"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0696699, 30.5907404] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.64425",
+        "code": 2541,
+        "fclass": "car_dealership",
+        "Name": "ÈýºÍÆû³µ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0379675, 30.5994341] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.64426",
+        "code": 2541,
+        "fclass": "car_dealership",
+        "Name": "»ªÆÕ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0373665, 30.5991278] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.64427",
+        "code": 2541,
+        "fclass": "car_dealership",
+        "Name": "³¤°²Âí×Ô´ïÍ¨°²µê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0365677, 30.5983858] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.64743",
+        "code": 2306,
+        "fclass": "food_court",
+        "Name": "Ë«Ô´ÈºÑç¹ã³¡"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0274241, 30.5543318] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.65013",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "AÊÀ½çµçÄÔ³Ç"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0649218, 30.6364092] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.65083",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0629886, 30.5917411] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.65154",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": "»ªÎ÷°Ó"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.066617, 30.6417937] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.65155",
+        "code": 2304,
+        "fclass": "pub",
+        "Name": "Ð¡¾Æ¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0537947, 30.6320139] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.66444",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0768217, 30.6460816] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.66688",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.045723, 30.6490401] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.66689",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0445273, 30.6496318] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.66693",
+        "code": 2101,
+        "fclass": "pharmacy",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0519788, 30.6492798] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.67255",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0814705, 30.6378313] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.70872",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0596226, 30.6055652] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.72241",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Xinzu Pinguan"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0640209, 30.625633] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.72487",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú¹¤ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0479063, 30.633379] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.72495",
+        "code": 2082,
+        "fclass": "school",
+        "Name": "³É¶¼Ê¦·¶Òø¶¼Ð¡Ñ§×ÏÞ±Ð£Çø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.042716, 30.6133232] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.74122",
+        "code": 2724,
+        "fclass": "memorial",
+        "Name": "Ã«Ôó¶«Ïñ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0882823, 30.6341408] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.75617",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0711974, 30.6452356] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.75701",
+        "code": 2251,
+        "fclass": "sports_centre",
+        "Name": "Survivor Indoor Rock Climbing"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0523773, 30.6181949] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.78048",
+        "code": 2252,
+        "fclass": "pitch",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0577829, 30.6310763] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.78141",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0473106, 30.6473216] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.78433",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "Èü°ÙÎ¶"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.064466, 30.648559] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.78438",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0648754, 30.6484146] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.80250",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0439863, 30.6414405] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.81082",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.064582, 30.5492589] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.81250",
+        "code": 2016,
+        "fclass": "market_place",
+        "Name": "³É¶¼ÎÄÎï¹ÅÍæÊÐ³¡"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0398759, 30.6396263] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.81251",
+        "code": 2515,
+        "fclass": "bookshop",
+        "Name": "ÌÔÊéÕ«"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0399161, 30.6394602] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.81252",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "¿µ¶¨¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0459673, 30.6455185] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.82154",
+        "code": 2005,
+        "fclass": "post_office",
+        "Name": "²ËÄñæäÕ¾"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0618515, 30.535189] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.82998",
+        "code": 2405,
+        "fclass": "hostel",
+        "Name": "Chengdu Dreams Travel International Youth Hostel"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0473402, 30.6440898] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.84292",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "7 Days Inn"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0585426, 30.6320267] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.85088",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": "ÖÐ¹úÅ·ÖÞÖÐÐÄ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0681882, 30.5392649] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.85257",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.04746, 30.6500388] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86416",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.060201, 30.6207979] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86417",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0474491, 30.6167315] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86420",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0581213, 30.615563] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86545",
+        "code": 2012,
+        "fclass": "community_centre",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0694576, 30.6214981] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86632",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "WOWO±ãÀûµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0737299, 30.6385611] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86633",
+        "code": 2084,
+        "fclass": "college",
+        "Name": "ËÄ´¨¹ã²¥µçÊÓ´óÑ§"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0737406, 30.6383765] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86634",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0737701, 30.6373265] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86713",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Ï²²è"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.065416, 30.6347254] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86758",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Çá°²"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0462172, 30.56079] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.86877",
+        "code": 2724,
+        "fclass": "memorial",
+        "Name": "ËÄ´¨´óÑ§¸ïÃüÁÒÊ¿¼ÍÄî±®"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0873826, 30.6323087] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.87364",
+        "code": 2008,
+        "fclass": "town_hall",
+        "Name": "ÎäºîÇøÕþ¸®"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0409139, 30.6444824] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.88864",
+        "code": 2405,
+        "fclass": "hostel",
+        "Name": "¾ÅÁú¶¦ÇàÄê¿ÍÕ»"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0444267, 30.6459212] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.91434",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0452566, 30.6448872] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.91504",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "ººÍ¥"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0391222, 30.6454489] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.91506",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "veganheart vegan"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0507488, 30.6387779] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.91528",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": "¾²Ô¶ÌÃ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0446842, 30.6484931] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.91529",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": "¿×Ã÷Ô·"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0465035, 30.6488961] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.91914",
+        "code": 2421,
+        "fclass": "shelter",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0491059, 30.6328657] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.91915",
+        "code": 2421,
+        "fclass": "shelter",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0495561, 30.6326641] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.93837",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0829394, 30.6436843] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.94976",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0414812, 30.64559] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.95045",
+        "code": 2305,
+        "fclass": "bar",
+        "Name": "TOMLAND BEER HOUSE ÌÀÄ·À¼µÂÆ¡¾ÆÎÝ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0522742, 30.5533536] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.97409",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "È«¼¾¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0642927, 30.5512048] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.98086",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "áÏ¶ë¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0575628, 30.6359128] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.98112",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "ºº±¤Íõ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0716612, 30.5557803] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.98855",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "ºº±¤Íõ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0579227, 30.5497911] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.98953",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "G1¿§·ÈÌü"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0643015, 30.550003] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.98954",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Omnomnom´óÄ¿"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0539611, 30.6074013] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99033",
+        "code": 2564,
+        "fclass": "car_wash",
+        "Name": "Áú¸ÚÆû³µÃÀÈÝ×°ÊÎ¿ìÐÞ£¨Ë«éªµê£©"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0286461, 30.6463524] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99034",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÍòÏó²èÂ¥"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0290621, 30.6463567] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99035",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "È«¼Ò"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0315182, 30.6463505] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99085",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0730967, 30.6267724] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99107",
+        "code": 2512,
+        "fclass": "clothes",
+        "Name": "H&M"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0600724, 30.6049265] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99108",
+        "code": 2517,
+        "fclass": "shoe_shop",
+        "Name": "UGG"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0606464, 30.6045895] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99109",
+        "code": 2520,
+        "fclass": "jeweller",
+        "Name": "Pandora"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0606706, 30.6044325] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99110",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0584497, 30.6046792] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99111",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0622821, 30.5961088] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99204",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "Æ½°²ÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0637594, 30.5893955] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99205",
+        "code": 2602,
+        "fclass": "atm",
+        "Name": "Æ½°²ÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0637581, 30.5893563] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99341",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0762891, 30.5933395] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99403",
+        "code": 2001,
+        "fclass": "police",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0699024, 30.5725318] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99413",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0785182, 30.5558949] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99414",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0720414, 30.5459521] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99438",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0714744, 30.543983] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99485",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0539406, 30.6074068] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99518",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "È«¼Ò"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0596026, 30.5509188] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99519",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Delia Cafe"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0641263, 30.5503707] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99520",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Maan Coffee"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0636358, 30.5496768] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99544",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "¿ÏµÂ»ù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0659038, 30.5408948] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99607",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Jacaranda Coffee"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0606608, 30.5562746] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99619",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÈóÀ³½ð×ù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0572756, 30.5560697] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99622",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Holiday Inn"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0558956, 30.5605946] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99657",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Wo Wo"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0659902, 30.6214354] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99658",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0654316, 30.6215139] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99659",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Yumun Emerald Conceptual Restaurant"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0653377, 30.6215162] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99745",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0685256, 30.6179739] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99746",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0687858, 30.6179832] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99747",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "VOX Coffee"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0691961, 30.6184506] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99748",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0691358, 30.6184633] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99749",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹úÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0685833, 30.6185221] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99814",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "WOWO"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0640807, 30.6160906] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99815",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹úÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0640807, 30.615772] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.99816",
+        "code": 2121,
+        "fclass": "dentist",
+        "Name": "Eighteen Perfect Teeth"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0641015, 30.6155637] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.100166",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Kempinski"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0636593, 30.621187] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.100167",
+        "code": 2101,
+        "fclass": "pharmacy",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0635916, 30.6434639] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.100168",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "¿ÏµÂ»ù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0646149, 30.636426] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.100169",
+        "code": 2011,
+        "fclass": "embassy",
+        "Name": "µÂÒâÖ¾Áª°î¹²ºÍ¹ú×¤³É¶¼×ÜÁìÊÂ¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0647705, 30.6269805] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.103117",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0409941, 30.546937] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.104987",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÎâÃú»³¾É»ð¹ø£¨Îäºîìôµê£©"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0448995, 30.6463762] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.105493",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.070501, 30.6272324] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.105494",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0723631, 30.6256196] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.105582",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0734515, 30.6268678] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.107008",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "¼¦Ã«µê(Ë«éªµê)"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0255602, 30.6472694] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.107009",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0295473, 30.6391329] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.108292",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "¶«ÑÇÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0584338, 30.584158] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.109314",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÉÏº£ÆÖ¶«·¢Õ¹ÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.046839, 30.6256701] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.109318",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÉÏº£ÆÖ¶«·¢Õ¹ÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0628205, 30.5490506] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.109322",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÉÏº£ÆÖ¶«·¢Õ¹ÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0748606, 30.6232872] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.109323",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÉÏº£ÆÖ¶«·¢Õ¹ÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.031831, 30.653174] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.109764",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "¹ÖÎ¶Ãæ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0732132, 30.6402455] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.110892",
+        "code": 2725,
+        "fclass": "artwork",
+        "Name": "ÐìÙÒÔºÊ¿Ïñ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0752733, 30.6297899] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.110893",
+        "code": 2725,
+        "fclass": "artwork",
+        "Name": "¶¦"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0765941, 30.6339239] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.111039",
+        "code": 2121,
+        "fclass": "dentist",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0256802, 30.6471745] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.111174",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0710071, 30.6454558] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.111197",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Ð¡¼Ò"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0712432, 30.6459868] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112170",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9993478, 30.6446989] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112276",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0508386, 30.6223662] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112277",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.071262, 30.6276844] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112278",
+        "code": 2203,
+        "fclass": "cinema",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0515568, 30.6235244] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112279",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0595011, 30.6237779] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112280",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0674638, 30.6276765] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112691",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "snacks place"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0549287, 30.6492899] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112775",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÖÐ¿ì¿ì²Í£¨¶þÂ¥£©"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0826477, 30.632484] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112776",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÌÒÔ°Ãæ¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0826333, 30.6327133] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112783",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "good hot pot restaurant"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0459865, 30.6465139] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112837",
+        "code": 2001,
+        "fclass": "police",
+        "Name": "ÅÉ³öËù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0783018, 30.6358333] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112838",
+        "code": 2012,
+        "fclass": "community_centre",
+        "Name": "Ñ§Éú»î¶¯ÖÐÐÄ£¨¶þÂ¥£©"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0765541, 30.6367798] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.112839",
+        "code": 2201,
+        "fclass": "theatre",
+        "Name": "Î÷Îå½ÌÑÝ²¥Ìü"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0773533, 30.6364588] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.113139",
+        "code": 2542,
+        "fclass": "bicycle_shop",
+        "Name": "½Ý°²ÌØ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0283921, 30.6386524] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.113353",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú¹¤ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0539797, 30.6440246] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.113414",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹úÃñÉúÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0470695, 30.632977] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.113418",
+        "code": 2512,
+        "fclass": "clothes",
+        "Name": "Raidy Boer"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0454599, 30.6309808] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.113425",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0530986, 30.6426306] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.114055",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9991211, 30.6449145] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.114080",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0551507, 30.6172084] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.114099",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0821289, 30.6167787] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.114140",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.070053, 30.6174826] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.114618",
+        "code": 2082,
+        "fclass": "school",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0601109, 30.6167889] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.115105",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0569016, 30.6139288] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.115833",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0338929, 30.6397592] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.117270",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0564008, 30.6124963] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.117398",
+        "code": 2524,
+        "fclass": "outdoor_shop",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0629047, 30.6356675] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.117399",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0474828, 30.6492581] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.119005",
+        "code": 2082,
+        "fclass": "school",
+        "Name": "IMHE"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0681869, 30.6321206] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.119870",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0528137, 30.6318956] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.119871",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0575613, 30.6289178] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.121212",
+        "code": 2082,
+        "fclass": "school",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0716538, 30.617333] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.122715",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.076487, 30.6454167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128033",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Ï²²è"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0630931, 30.5918733] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128034",
+        "code": 2512,
+        "fclass": "clothes",
+        "Name": "ÓÅÒÂ¿â"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0425328, 30.5529702] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128035",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Ï²²è"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0425028, 30.5527949] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128036",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "±ØÊ¤¿Í"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0432477, 30.5527605] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128037",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "¿ÏµÂ»ù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0431491, 30.5528164] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128038",
+        "code": 2512,
+        "fclass": "clothes",
+        "Name": "ÓÅÒÂ¿â"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0621456, 30.5717762] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128039",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0623986, 30.5715584] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128040",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "Ï²²è"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0624387, 30.5720459] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128041",
+        "code": 2203,
+        "fclass": "cinema",
+        "Name": "CGV"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0424261, 30.5519004] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128042",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "º£µ×ÀÌ»ð¹ø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0431704, 30.5515068] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128043",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "È«Ê±"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0428054, 30.5513318] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128044",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÕÐÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0432223, 30.5513192] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128045",
+        "code": 2502,
+        "fclass": "bakery",
+        "Name": "ºÃÀûÀ´"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0432618, 30.5515356] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128046",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÐÇ°Í¿Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0433072, 30.5518089] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.128047",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú¹¤ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0432406, 30.5525336] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.129988",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "³É¶¼Ê××ùÍòºÀ¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.067072, 30.5891987] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.130415",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "Sichuan Qianzheng Technology Co., Ltd."
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0222366, 30.590791] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.146260",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "³É¶¼Ê®·½ÇàÄê¿Í£"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0731528, 30.6278174] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.149080",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0742869, 30.6162702] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.149082",
+        "code": 2721,
+        "fclass": "attraction",
+        "Name": "»·ÇòÖÐÐÄ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0630834, 30.5714638] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.150886",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "³É¶¼ìû«h¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0640669, 30.5514431] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.152628",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "ÎÖ¶ûÂê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0395026, 30.6401373] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.154276",
+        "code": 2722,
+        "fclass": "museum",
+        "Name": "³É¶¼Ö±Éý»ú²©Îï¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0115289, 30.6033745] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.156891",
+        "code": 2110,
+        "fclass": "hospital",
+        "Name": "ÎäºîÇø½¬Ï´½ÖÉçÇøÎÀÉú·þÎñÖÐÐÄ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0384869, 30.6497821] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.167206",
+        "code": 2504,
+        "fclass": "mall",
+        "Name": "Ä¦¶û³µ»ã¹ã³¡"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0021062, 30.6175504] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.170658",
+        "code": 2950,
+        "fclass": "tower",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0649484, 30.6095919] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171591",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "À×ÃÅÀ­Ãæ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0856444, 30.6406064] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171598",
+        "code": 2902,
+        "fclass": "bench",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0642409, 30.642528] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171599",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "WOWO"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0641457, 30.6446233] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171600",
+        "code": 2902,
+        "fclass": "bench",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0640578, 30.6447895] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171601",
+        "code": 2005,
+        "fclass": "post_office",
+        "Name": "ÖÐ¹úÓÊÕþ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0641208, 30.6447947] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171602",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "Á¹É½±ö¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0641839, 30.6456981] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171603",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0652943, 30.6453219] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.171604",
+        "code": 2515,
+        "fclass": "bookshop",
+        "Name": "¶Á±¾ÎÝ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0663658, 30.64524] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.172931",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9775214, 30.6241742] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.172932",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "·×³È¶à"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9772739, 30.6238378] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.173563",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÇÌ½ÅÅ£Èâ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0672236, 30.6235394] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.173564",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "24Ð¡Ê±±ãÀûµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0673035, 30.6236254] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.174452",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÃÛÑ©±ù³Ç"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0791226, 30.628718] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.175321",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÈØÎ¶ÏÊ°×Áì²ÍÌü"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9776465, 30.6246328] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.175322",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹úÓÊÕþ´¢ÐîÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9780185, 30.6241575] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.176151",
+        "code": 2401,
+        "fclass": "hotel",
+        "Name": "¾ýÁÙÒÝÑÅ¾Æµê"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0744447, 30.6043818] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.176152",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ÀÏÁÚ¾Ó"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0712583, 30.6044303] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.176153",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÈËÃñ¹«Éç"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0705609, 30.6045111] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.176456",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0617964, 30.5664083] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.176457",
+        "code": 2205,
+        "fclass": "playground",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0617266, 30.5657524] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.176998",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9765427, 30.6626902] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.177537",
+        "code": 2725,
+        "fclass": "artwork",
+        "Name": "Âõ¿Ë¶û¡¤½Ü¿ËÑ·µñÏñ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0677559, 30.604904] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.177721",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "¾ýÁÙÐ¡³ø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0737906, 30.6045545] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.178286",
+        "code": 2252,
+        "fclass": "pitch",
+        "Name": "ÈðµÂÓðÃ«Çò³¡"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0733379, 30.6182775] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.178788",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "»ÆìË¼¦¡¤âÆâ½Íõ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.07901, 30.6078768] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.179759",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0721547, 30.6017004] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.179760",
+        "code": 2528,
+        "fclass": "greengrocer",
+        "Name": "ÒêÆ·ÉúÏÊ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0718382, 30.6019474] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.179761",
+        "code": 2205,
+        "fclass": "playground",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0708685, 30.6058593] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.179762",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0706727, 30.6059678] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.179763",
+        "code": 2007,
+        "fclass": "library",
+        "Name": "¸ßÐÂÇøÍ¼Êé¹Ý¹ðÏª·Ö¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.070139, 30.6060544] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.180044",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Ð¡Âô²¿"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0646686, 30.5640555] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.180045",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Ð¡Âô²¿"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0616038, 30.5653528] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.180504",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "È«¼Ç´«Í³ÔÁ²Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0463064, 30.618881] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181500",
+        "code": 2722,
+        "fclass": "museum",
+        "Name": "Óö¼û²©Îï¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0679999, 30.5442002] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181501",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0640196, 30.547461] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181520",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Ìì½Ö³¬ÊÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0737745, 30.6042971] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181621",
+        "code": 2016,
+        "fclass": "market_place",
+        "Name": "ºÍÆ½²ËÊÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0742749, 30.6042371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181622",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0711678, 30.6071981] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181623",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "¼ÒÎ¶ÉÕ²Ë"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0705536, 30.6077348] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181662",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "À°Ö­Èâ¼ÐâÉ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0708665, 30.6276192] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181663",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Ê³Æä¼ÒÅ£S¿§à¬"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0676988, 30.6276446] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181664",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÈËÃñÊ³ÌÃ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0631417, 30.6296294] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.181673",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0638619, 30.6295048] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.182232",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Îè¶«·ç"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0720892, 30.5955375] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.182233",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "¾©³ÇÌØºÅ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0708232, 30.5954613] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.182301",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0714337, 30.6047945] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.182302",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Îè¶«·ç"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0705318, 30.6045094] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.182440",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÁùºÏ¾Ó"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9927694, 30.6016416] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.182441",
+        "code": 2082,
+        "fclass": "school",
+        "Name": "³É¶¼ÎÖ¶Ù¹«Ñ§"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0325586, 30.6005827] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.183080",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÈðÐÒ¿§·È"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9773335, 30.6241064] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.183187",
+        "code": 2001,
+        "fclass": "police",
+        "Name": "³É¶¼ÊÐ¹«°²¾ÖÎäºîÇø·Ö¾Ö»úÍ¶ÇÅÅÉ³öËù"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9676538, 30.649613] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.183995",
+        "code": 2950,
+        "fclass": "tower",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.963, 30.5866588] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.183997",
+        "code": 2950,
+        "fclass": "tower",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9605485, 30.5869305] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.184531",
+        "code": 2541,
+        "fclass": "car_dealership",
+        "Name": "ÎµÀ´ÖÐÐÄ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0662275, 30.5878824] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.184954",
+        "code": 2503,
+        "fclass": "kiosk",
+        "Name": "Ã·¸É²Ë¿ÛÈâ±ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.079671, 30.6286404] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.184955",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "½ÇÂä£¨ÒâÊ½³ø·»£©"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0790273, 30.6285896] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.185026",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9846686, 30.5976569] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.185027",
+        "code": 2005,
+        "fclass": "post_office",
+        "Name": "²ËÄñæäÕ¾"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.984804, 30.5975253] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.186799",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0471296, 30.5727886] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187181",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ÓÅ¼Ñ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0276849, 30.6377378] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187404",
+        "code": 2001,
+        "fclass": "police",
+        "Name": "½ð»¨ÇÅÅÉ³öËù"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9762129, 30.5938626] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187405",
+        "code": 2205,
+        "fclass": "playground",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9846484, 30.5946037] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187620",
+        "code": 2725,
+        "fclass": "artwork",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.04426, 30.6487093] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187621",
+        "code": 2725,
+        "fclass": "artwork",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0443303, 30.6486796] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187622",
+        "code": 2724,
+        "fclass": "memorial",
+        "Name": "ÎÄ±£±®"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.043584, 30.6472951] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187631",
+        "code": 2083,
+        "fclass": "kindergarten",
+        "Name": "ÎäÍâÓ×¶ùÔ°"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9790469, 30.6056526] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187720",
+        "code": 2593,
+        "fclass": "vending_any",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0645766, 30.5671719] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187721",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0682847, 30.565143] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187722",
+        "code": 2590,
+        "fclass": "vending_machine",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0692249, 30.5651372] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187723",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÃÖÔ¶¿§·È"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0692007, 30.5651915] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.187724",
+        "code": 2205,
+        "fclass": "playground",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0692088, 30.5649825] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.188074",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.988958, 30.5961093] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.188075",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.984146, 30.5941273] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.188198",
+        "code": 2110,
+        "fclass": "hospital",
+        "Name": "³É¶¼¾Û½¹³¬ÉùÒ½Ôº"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9804463, 30.6271679] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.188199",
+        "code": 2110,
+        "fclass": "hospital",
+        "Name": "ÎäºîÇøµÚ¶þÈËÃñÒ½Ôº"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9811415, 30.6354316] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.189443",
+        "code": 2016,
+        "fclass": "market_place",
+        "Name": "½ð·ï½ÖÅ©Ã³ÊÐ³¡"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9700828, 30.6099846] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.189605",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9680294, 30.5944701] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.189627",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": "ÈýÂ¥²ÞËù"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0674216, 30.6450365] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.190134",
+        "code": 2501,
+        "fclass": "supermarket",
+        "Name": "¼ÒÀÖ¸£"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0264969, 30.6363913] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.190720",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9927969, 30.6077962] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.190997",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.987182, 30.6029847] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.191104",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9680855, 30.5952614] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.191399",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9641016, 30.5842876] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.191400",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9749766, 30.5809371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.193144",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "¼û¸£"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0062243, 30.6265995] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.193145",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "7-Eleven"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.00605, 30.6264472] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.193146",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "¶¹¸ç¸ç±ùÃÃÃÃ"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9843379, 30.5939268] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.193147",
+        "code": 2701,
+        "fclass": "tourist_info",
+        "Name": "ÓÎ¿ÍÖÐÐÄ"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9825274, 30.5967932] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.193317",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9804262, 30.5956475] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.193318",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Âê¸è¡¤µÏÏÉ×¯Ô°"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9796618, 30.596294] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.193319",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9792272, 30.5950986] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.196776",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0468186, 30.6328143] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.197983",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "ÒãÔÃ´¨²Ë¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9878566, 30.5955703] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.197984",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "°Û¼Ñ»Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9881516, 30.5957885] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.198024",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9889291, 30.6033218] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.198025",
+        "code": 2901,
+        "fclass": "toilet",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9899698, 30.6053072] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.198704",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9893586, 30.5992287] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.198705",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Îè¶«·ç"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9896081, 30.5993095] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.198706",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Ã»ÕÐÅÆµÄ·¹¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9885968, 30.601664] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.198826",
+        "code": 2902,
+        "fclass": "bench",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0252257, 30.621931] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.199241",
+        "code": 2111,
+        "fclass": "clinic",
+        "Name": "¿¡Ã¯ÕïËù"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9681321, 30.5945299] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.199476",
+        "code": 2523,
+        "fclass": "stationery",
+        "Name": "³¿¹âÎÄ¾ß"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9829243, 30.6054425] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.199794",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "HYGGE Life¡¤À´¸£"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0529803, 30.6249431] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.199795",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0538667, 30.6262113] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.200897",
+        "code": 2005,
+        "fclass": "post_office",
+        "Name": "Ë³·áËÙÔË"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9938164, 30.6000451] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.201022",
+        "code": 2252,
+        "fclass": "pitch",
+        "Name": "¼ªÏèÓðÃ«Çò¹Ý"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9721659, 30.6292901] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.201430",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9950929, 30.5998211] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.201649",
+        "code": 2541,
+        "fclass": "car_dealership",
+        "Name": "Nissan"
+      },
+      "geometry": { "type": "Point", "coordinates": [103.9805538, 30.6252897] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.204832",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "Ê³Î¶Ð¡Ãæ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0453994, 30.5450038] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.204833",
+        "code": 2902,
+        "fclass": "bench",
+        "Name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0485564, 30.5469696] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.204834",
+        "code": 2301,
+        "fclass": "restaurant",
+        "Name": "·½ÖÐÉ½ºúÀ±ÌÀ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0443259, 30.5454577] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.205322",
+        "code": 2302,
+        "fclass": "fast_food",
+        "Name": "Âóµ±ÀÍ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0111064, 30.6515658] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207550",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú½¨ÉèÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.029791, 30.6272474] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207551",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "³É¶¼Å©ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0297749, 30.6268804] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207552",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0331464, 30.6255741] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207553",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0362417, 30.6091057] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207554",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Îè¶«·ç"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0372804, 30.6086186] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207555",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "ºìÆìÁ¬Ëø"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0369149, 30.6096736] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207556",
+        "code": 2601,
+        "fclass": "bank",
+        "Name": "ÖÐ¹ú¹¤ÉÌÒøÐÐ"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0444321, 30.5490051] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.207557",
+        "code": 2511,
+        "fclass": "convenience",
+        "Name": "Îè¶«·ç"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0446493, 30.5485062] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gml_id": "v2_layer_poi_pt.209749",
+        "code": 2303,
+        "fclass": "cafe",
+        "Name": "ÃÖÔ¶¿§·È"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.0785988, 30.5937679] }
+    }
+  ]
+}

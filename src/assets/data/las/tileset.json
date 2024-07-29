@@ -1,0 +1,12 @@
+{
+  "asset": {
+    "generatetool": "XbsjPointcloudTiler@www.cesiumlab.com",
+    "version": "1.0"
+  },
+  "geometricError": 9783.93962050256,
+  "refine": "REPLACE",
+  "root": {
+    "boundingVolume": {
+      "region": [
+        1.9895730818876767, 0.39269908169872414, 1.9911070626755623,
+        0.39423306248660983, 0.0, 9783.93962050256
