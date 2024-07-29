@@ -6,7 +6,7 @@ import { mitBus } from "@/stores/mitt";
 // import {addPrimitive,createPolygonTest} from '@/utils/cesium/primitive'
 // import {leftClickGetAttributes} from '@/utils/cesium/eventClick'
 import tool from "@/components/Tool.vue";
-import {loadData} from '@/utils/cesium/cesiumData'
+import { loadData } from '@/utils/cesium/cesiumData'
 let viewer: Cesium.Viewer;
 Cesium.Ion.defaultAccessToken =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDljOTg3Yy03ZDkxLTRkNTAtODhhYy03ZDIzNTU0YzgxZjYiLCJpZCI6MTMxNzg4LCJpYXQiOjE2ODA0ODg3NzB9.BK0bnFs_lhI-RLOZNMBxiOyGI8ZOGwG7Cok07TECti0";
@@ -34,6 +34,8 @@ async function iniMap() {
       //显示模型阴影
       shadows: true,
     });
+    //开启地形检测
+    viewer.scene.globe.depthTestAgainstTerrain = true;
   } catch (error) {
     console.log(error);
   } finally {
@@ -47,10 +49,10 @@ async function iniMap() {
   // leftClickGetAttributes(viewer)
   // singlePhoto(viewer)
   loadData(viewer)
-  
-//   viewer.camera.flyTo({
-//     destination:Cesium.Cartesian3.fromDegrees(113, 30, 5000000.0)
-//   })
+
+  //   viewer.camera.flyTo({
+  //     destination:Cesium.Cartesian3.fromDegrees(113, 30, 5000000.0)
+  //   })
 }
 </script>
 
@@ -66,6 +68,7 @@ async function iniMap() {
   width: 100%;
   height: 100%;
 }
+
 #container {
   width: 100%;
   height: 100%;
