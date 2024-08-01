@@ -7,7 +7,7 @@ export class CesiumDrawTool {
   constructor(viewer: Cesium.Viewer) {
     this.viewer = viewer;
     this.handler = new Cesium.ScreenSpaceEventHandler(this.viewer.canvas);
-    this.getPosition()
+    // this.getPosition()
   }
   //   绘制
   public draw(drawingMode: string) {

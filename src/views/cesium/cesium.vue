@@ -5,8 +5,9 @@ import { mitBus } from "@/stores/mitt";
 // import {addEntity} from '@/utils/cesium/entity'
 // import {addPrimitive,createPolygonTest} from '@/utils/cesium/primitive'
 // import {leftClickGetAttributes} from '@/utils/cesium/eventClick'
+// import {loadData} from '@/utils/cesium/cesiumData'
 import tool from "@/components/Tool.vue";
-import { loadData } from '@/utils/cesium/cesiumData'
+import { modelChange } from '@/utils/cesium/model.ts'
 let viewer: Cesium.Viewer;
 Cesium.Ion.defaultAccessToken =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDljOTg3Yy03ZDkxLTRkNTAtODhhYy03ZDIzNTU0YzgxZjYiLCJpZCI6MTMxNzg4LCJpYXQiOjE2ODA0ODg3NzB9.BK0bnFs_lhI-RLOZNMBxiOyGI8ZOGwG7Cok07TECti0";
@@ -35,7 +36,8 @@ async function iniMap() {
       shadows: true,
     });
     //开启地形检测
-    viewer.scene.globe.depthTestAgainstTerrain = true;
+    viewer.scene.globe.depthTestAgainstTerrain = false;
+    viewer.scene.screenSpaceCameraController.enableCollisionDetection = false;
   } catch (error) {
     console.log(error);
   } finally {
@@ -48,7 +50,7 @@ async function iniMap() {
   // addPrimitive(viewer)
   // leftClickGetAttributes(viewer)
   // singlePhoto(viewer)
-  loadData(viewer)
+  modelChange(viewer)
 
   //   viewer.camera.flyTo({
   //     destination:Cesium.Cartesian3.fromDegrees(113, 30, 5000000.0)

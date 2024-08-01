@@ -28,18 +28,15 @@ export async function addArcGISTerrain(viewer: Cesium.Viewer) {
 }
 // 添加本地地形
 export async function addLocalTerrain(viewer: Cesium.Viewer) {
-  const terrainProvider =
-    await Cesium.CesiumTerrainProvider.fromUrl(
-      "../../../src/assets/data/terrain"
-    );
+  const terrainProvider = await Cesium.CesiumTerrainProvider.fromUrl(
+    "../../../src/assets/data/terrain"
+  );
   viewer.terrainProvider = terrainProvider;
-    viewer.camera.setView({
-      destination: Cesium.Cartesian3.fromArray([
-        1.980945937983933,
-        0.4101498913617981,
-        95712.63736220135
+  viewer.camera.setView({
+    destination: Cesium.Cartesian3.fromArray([
+      1.980945937983933, 0.4101498913617981, 95712.63736220135,
     ]),
-  })
+  });
 }
 // arcGIS在线影像图
 export async function arcGISOnline(viewer: Cesium.Viewer) {
@@ -180,6 +177,7 @@ export const gaoDeOnline = (viewer: Cesium.Viewer) => {
 };
 export function loadData(viewer: Cesium.Viewer) {
   osgbData(viewer);
+  shpData(viewer);
 }
 // 单张图片
 export const singlePhoto = (viewer: Cesium.Viewer) => {
@@ -283,4 +281,40 @@ export const osgbData = async (viewer: Cesium.Viewer) => {
   );
   viewer.flyTo(tileSet); //定位过去
 };
-
+// 加载shp数据
+export const shpData = async (viewer: Cesium.Viewer) => {
+  let tileSet = viewer.scene.primitives.add(
+    await Cesium.Cesium3DTileset.fromUrl(
+      "../../../src/assets/data/monomerizedSections/tileset.json",
+      // "../../../src/assets/data/shp/tileset.json",
+      {
+        classificationType: Cesium.ClassificationType.CESIUM_3D_TILE,
+      }
+    )
+  );
+  tileSet.style = new Cesium.Cesium3DTileStyle({
+    color: "rgba(255,255,255,0.01)",
+  });
+  let highlighted = {
+    feature: undefined,
+    originalColor: new Cesium.Color(),
+  };
+  //注册鼠标移动事件
+  let handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+  handler.setInputAction(function onMouseMove(movement:any) {
+    if (highlighted.feature&&Cesium.defined(highlighted.feature)) {
+      highlighted.feature.color = highlighted.originalColor;
+      highlighted.feature = undefined;
+    }
+    //拾取新要素
+    let pickedFeature = viewer.scene.pick(movement.endPosition);
+    if (!Cesium.defined(pickedFeature)) {
+      return;
+    }
+    //高亮显示
+    highlighted.feature = pickedFeature;
+    Cesium.Color.clone(pickedFeature.color, highlighted.originalColor);
+    pickedFeature.color = Cesium.Color.LIME.withAlpha(0.5);
+  }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
+  viewer.flyTo(tileSet); //定位过去
+};
