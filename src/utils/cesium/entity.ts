@@ -261,7 +261,7 @@ export function addEllipsoid(viewer: Cesium.Viewer) {
   viewer.entities.add(ellipsoid);
   return ellipsoid;
 }
-// 加小车模型
+// 加小车模型glb
 export function addModel(viewer: Cesium.Viewer,coordinates: [number, number, number]|Cesium.Cartesian3) {
   const model = new Cesium.Entity({
     // id: "model", //id 唯一

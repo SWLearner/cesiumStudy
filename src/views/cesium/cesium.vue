@@ -36,8 +36,8 @@ async function iniMap() {
       shadows: true,
     });
     //开启地形检测
-    viewer.scene.globe.depthTestAgainstTerrain = false;
-    viewer.scene.screenSpaceCameraController.enableCollisionDetection = false;
+    viewer.scene.globe.depthTestAgainstTerrain = true;
+    // viewer.scene.screenSpaceCameraController.enableCollisionDetection = false;
   } catch (error) {
     console.log(error);
   } finally {

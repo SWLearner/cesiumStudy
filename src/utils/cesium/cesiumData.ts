@@ -295,13 +295,16 @@ export const shpData = async (viewer: Cesium.Viewer) => {
   tileSet.style = new Cesium.Cesium3DTileStyle({
     color: "rgba(255,255,255,0.01)",
   });
-  let highlighted = {
+  let highlighted: {
+    feature: Cesium.Cesium3DTileFeature | undefined;
+    originalColor: Cesium.Color;
+  } = {
     feature: undefined,
     originalColor: new Cesium.Color(),
   };
   //注册鼠标移动事件
   let handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
-  handler.setInputAction(function onMouseMove(movement:any) {
+  handler.setInputAction(function onMouseMove(movement:Cesium.ScreenSpaceEventHandler.MotionEvent) {
     if (highlighted.feature&&Cesium.defined(highlighted.feature)) {
       highlighted.feature.color = highlighted.originalColor;
       highlighted.feature = undefined;
