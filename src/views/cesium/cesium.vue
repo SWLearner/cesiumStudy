@@ -2,12 +2,8 @@
 import * as Cesium from "cesium";
 import { onMounted } from "vue";
 import { mitBus } from "@/stores/mitt";
-// import {addEntity} from '@/utils/cesium/entity'
-// import {addPrimitive,createPolygonTest} from '@/utils/cesium/primitive'
-// import {leftClickGetAttributes} from '@/utils/cesium/eventClick'
-// import {loadData} from '@/utils/cesium/cesiumData'
 import tool from "@/components/Tool.vue";
-import { modelChange } from '@/utils/cesium/model.ts'
+import { materialFunction } from '@/utils/cesium/material.ts'
 let viewer: Cesium.Viewer;
 Cesium.Ion.defaultAccessToken =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDljOTg3Yy03ZDkxLTRkNTAtODhhYy03ZDIzNTU0YzgxZjYiLCJpZCI6MTMxNzg4LCJpYXQiOjE2ODA0ODg3NzB9.BK0bnFs_lhI-RLOZNMBxiOyGI8ZOGwG7Cok07TECti0";
@@ -43,18 +39,7 @@ async function iniMap() {
   } finally {
     mitBus.emit("viewer", viewer);
   }
-  // viewer.camera.setView({
-  //   destination: Cesium.Cartesian3.fromDegrees(113, 30, 5000000.0),
-  // });
-  // addEntity(viewer)
-  // addPrimitive(viewer)
-  // leftClickGetAttributes(viewer)
-  // singlePhoto(viewer)
-  modelChange(viewer)
-
-  //   viewer.camera.flyTo({
-  //     destination:Cesium.Cartesian3.fromDegrees(113, 30, 5000000.0)
-  //   })
+  materialFunction(viewer)
 }
 </script>
 
