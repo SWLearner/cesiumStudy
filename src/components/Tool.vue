@@ -130,7 +130,7 @@
         >
       </div>
     </el-popover>
-    <el-button class="edit" size="large" type="primary" circle>清除</el-button>
+    <el-button class="edit" size="large" type="primary" circle @click="tool.printScreenScene()">截图</el-button>
     <el-button class="edit" size="large" type="primary" circle>放大</el-button>
     <el-button class="edit" size="large" type="primary" circle>缩小</el-button>
   </div>

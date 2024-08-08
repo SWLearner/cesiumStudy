@@ -245,6 +245,16 @@ export class CesiumDrawTool {
       _this.removeHandler();
     }, Cesium.ScreenSpaceEventType.RIGHT_CLICK);
   }
+  //  场景打印
+  public printScreenScene(name:string='当前场景') { 
+    this.viewer.render(); //重新渲染界面
+    let imageUrl = this.viewer.scene.canvas.toDataURL("image/png"); //获取下载链接
+    let saveLink = document.createElement('a'); //创建下载链接标签<a> 
+    saveLink.href = imageUrl; //设置下载链接
+    saveLink.download = name; //设置下载图片名称
+    document.body.appendChild(saveLink); //将<a>标签添加到 body 中
+    saveLink.click(); //单击<a>标签
+  } 
   //   绘制画几何体方法
   private drawShape(positionData: any, drawingMode: string) {
     let shape;
