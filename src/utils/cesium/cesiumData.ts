@@ -136,8 +136,8 @@ export const tdtOnline = (
   layerName: string
 ) => {
   // 先将底图全清空
-  viewer.imageryLayers.removeAll();
-  viewer.imageryLayers.addImageryProvider(
+  // viewer.imageryLayers.removeAll();
+  return viewer.imageryLayers.addImageryProvider(
     new Cesium.WebMapTileServiceImageryProvider({
       url: `http://t{s}.tianditu.gov.cn/${lyr}/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=${layer}&tileMatrixSet=w&TileMatrix={TileMatrix}&TileRow={TileRow}&TileCol={TileCol}&style=default&format=tiles&tk=f47da4a06995b322a237c9278a84f12c`, //url地址
       layer: layerName, //WMTS请求的层名称
@@ -176,8 +176,7 @@ export const gaoDeOnline = (viewer: Cesium.Viewer) => {
   viewer.imageryLayers.addImageryProvider(zhuji);
 };
 export function loadData(viewer: Cesium.Viewer) {
-  osgbData(viewer);
-  shpData(viewer);
+  lasData(viewer);
 }
 // 单张图片
 export const singlePhoto = (viewer: Cesium.Viewer) => {
@@ -258,9 +257,9 @@ export const lasData = async (viewer: Cesium.Viewer) => {
   tileSet.style = new Cesium.Cesium3DTileStyle({
     color: {
       conditions: [
-        ["${z} >= 100", 'color("#11f524", 0.5)'],
-        ["${z} >= 50", 'color("#f3581b")'],
-        ["${z} >= 0", 'color("blue")'],
+        ["${z} >= 100", 'color("#0af548", 0.5)'],
+        ["${z} >= 50", 'color("#f2da05")'],
+        ["${z} >= 0", 'color("#d8f404")'],
       ],
     },
     show: true,
