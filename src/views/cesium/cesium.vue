@@ -5,7 +5,7 @@ import { mitBus } from "@/stores/mitt";
 import tool from "@/components/Tool.vue";
 // import { materialFunction } from '@/utils/cesium/material.ts'
 // import { drawMask } from '@/utils/cesium/entity.ts'
-import { eagleEye } from '@/utils/cesium/eagleEye.ts'
+import {inundationAnalysis} from '@/utils/cesium/analysisTool'
 let viewer: Cesium.Viewer;
 Cesium.Ion.defaultAccessToken =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZDljOTg3Yy03ZDkxLTRkNTAtODhhYy03ZDIzNTU0YzgxZjYiLCJpZCI6MTMxNzg4LCJpYXQiOjE2ODA0ODg3NzB9.BK0bnFs_lhI-RLOZNMBxiOyGI8ZOGwG7Cok07TECti0";
@@ -28,7 +28,7 @@ async function iniMap() {
       //   requestWaterMask: true,
       //   requestVertexNormals: true
       // }),
-      // terrainProvider: await Cesium.createWorldTerrainAsync(),
+      terrainProvider: await Cesium.createWorldTerrainAsync(),
       // terrainProvider:await Cesium.ArcGISTiledElevationTerrainProvider.fromUrl("https://services.arcgisonline.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer"),
       //显示模型阴影
       shadows: true,
@@ -39,9 +39,7 @@ async function iniMap() {
   } catch (error) {
     console.log(error);
   } finally {
-    //当主视图相机变化时，鹰眼视图跟着变化
-    let eyeViewer=new eagleEye(viewer)
-    eyeViewer.initViewer()
+    inundationAnalysis(viewer)
     mitBus.emit("viewer", viewer);
   }
 }
@@ -52,7 +50,6 @@ async function iniMap() {
   <div id="mymap">
     <div id="container">
     </div>
-    <div id="eagleEye"></div>
     <tool></tool>
   </div>
 </template>
