@@ -1,5 +1,8 @@
 import * as Cesium from "cesium";
-
+/**
+ * 该类基于同目录下的interactDraw.ts文件进行类封装
+ * 包含内容：交互绘制、测量、场景打印、绘制标签
+ */
 export class CesiumDrawTool {
   public viewer: Cesium.Viewer;
   private handler: Cesium.ScreenSpaceEventHandler;

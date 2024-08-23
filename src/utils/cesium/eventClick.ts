@@ -1,4 +1,8 @@
 import * as Cesium from "cesium";
+/**
+ * 鼠标左键点击获取实体属性方法
+ * 直接调用leftClickGetAttributes即可获取的实体属性
+ */
 export function leftClickGetAttributes(viewer: Cesium.Viewer) {
   leftClick(viewer, handleAttributes);
 }

@@ -1,4 +1,8 @@
 import * as Cesium from "cesium";
+/**
+ * 该文件包含内容：雪、雾、云、雨、水、镭射
+ *  直接传入参数调用相关方法即可
+ */
 export function materialFunction(viewer: Cesium.Viewer) {
   //   addCloud(viewer);
   //   addFog(viewer);

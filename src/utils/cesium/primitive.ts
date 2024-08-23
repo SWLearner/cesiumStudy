@@ -1,5 +1,8 @@
 import * as Cesium from "cesium";
-
+/**
+ * 此文件包含内容：primitive方式绘制各种几何体(点、线、面、墙、方盒、椭圆、椭球体、圆柱体、圆，走廊、大数据量多边形(体)加载)
+ * 直接传入参数调用相关方法即可
+ */
 export function addPrimitive(viewer: Cesium.Viewer) {
   
   addPolyline(viewer);
@@ -12,7 +15,7 @@ export function addPrimitive(viewer: Cesium.Viewer) {
   addBox(viewer);
   addEllipsoid(viewer);
   addCylinder(viewer);
-  //   mergePolygon(viewer)
+  mergePolygon(viewer)
 }
 // 加线
 export function addPolyline(viewer: Cesium.Viewer) {
@@ -291,6 +294,7 @@ export function addCylinder(viewer: Cesium.Viewer) {
   });
   viewer.scene.primitives.add(cylinder);
 }
+// 大数据量多边形(体)加载方法
 interface polygonOptions {
   // 形成底面的坐标串
   coordinates: number[][] | number[];
@@ -383,7 +387,7 @@ export const createPolygon = (
   // viewer.scene.primitives.add(primitiveOutLine);
   return primitive;
 };
-// 大数据量的primitive
+// 优化：将几何体集合成一个实例再加进去
 export const createMultiPolygon = (
   viewer: Cesium.Viewer,
   options: polygonOptions
@@ -432,7 +436,7 @@ export const createMultiPolygon = (
   }
   viewer.scene.primitives.add(primitive);
 };
-// 合并加载
+// 大数据量的几何体加载示例
 export function mergePolygon(viewer: Cesium.Viewer) {
   //合并多个矩形
   const instances = []; //存储几何实例
@@ -468,63 +472,3 @@ export function mergePolygon(viewer: Cesium.Viewer) {
   });
   viewer.scene.primitives.add(mergeInstances);
 }
-interface polygonOptions1 {
-  // 形成底面的坐标串
-  coordinates: any;
-  // 底面离地面高度
-  heightAboveGround?: number;
-  // 底面的拉伸高度
-  polyHeight?: number;
-  // 多边形面的颜色
-  color?: string;
-  // 多边形轮廓的颜色
-  outLineColor?: string;
-}
-export const createPolygonTest = (
-  viewer: Cesium.Viewer,
-  options: polygonOptions1
-): Cesium.GroundPrimitive | Cesium.Primitive => {
-  const {
-    coordinates,
-    color = "#1af35b",
-    outLineColor = "#000",
-    heightAboveGround = 0,
-    polyHeight = 100000000,
-  } = options;
-
-  const geometryInstance = {
-    geometryInstances: new Cesium.GeometryInstance({
-      geometry: new Cesium.PolygonGeometry({
-        polygonHierarchy: new Cesium.PolygonHierarchy(
-          coordinates as []
-        ),
-        // 离地面高度
-        // height: heightAboveGround,
-        // 离地面高度加上底面的拉伸高度
-        extrudedHeight: heightAboveGround + polyHeight,
-        perPositionHeight:true
-      }),
-      attributes: {
-        color: Cesium.ColorGeometryInstanceAttribute.fromColor(
-          Cesium.Color.fromCssColorString(color)
-        ),
-      },
-    }),
-    appearance: new Cesium.PerInstanceColorAppearance({
-      flat: true,
-      translucent: true, //是否透明
-    }),
-  };
-  
-  let primitive;
-  let primitiveOutLine;
-  if (heightAboveGround === 0 && polyHeight === 0) {
-    //贴地面
-    primitive = new Cesium.GroundPrimitive(geometryInstance);
-  } else {
-    primitive = new Cesium.Primitive(geometryInstance);
-  }
-  viewer.scene.primitives.add(primitive);
-  // viewer.scene.primitives.add(primitiveOutLine);
-  return primitive;
-};

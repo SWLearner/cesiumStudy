@@ -1,4 +1,7 @@
 import * as Cesium from "cesium";
+/**
+ * 鹰眼类
+ */
 export class eagleEye {
   public eyeViewer: Cesium.Viewer | null;
   public viewer: Cesium.Viewer;

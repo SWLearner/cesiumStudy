@@ -1,5 +1,9 @@
 import * as Cesium from "cesium";
 import { addPoint, addModel } from "./entity";
+/**
+ * 此文件包含内容：交互绘制点线面
+ * 直接传入参数调用相关方法即可
+ */
 function drawShape(
   viewer: Cesium.Viewer,
   positionData: any,

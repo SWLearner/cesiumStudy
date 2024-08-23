@@ -1,4 +1,9 @@
 import * as Cesium from "cesium";
+/**
+ * 此文件包含内容：entity方式绘制各种几何体(点、线、面、墙、方盒、椭圆、椭球体、圆柱体、圆，走廊、模型(glb、gltf)、广告牌)
+ * 其他方法：反选遮罩
+ * 直接传入参数调用相关方法即可
+ */
 export function addEntity(viewer: Cesium.Viewer) {
   addPoint(viewer, [118, 32, 40.0]);
   // const line = addLine(viewer, [118, 30, 119, 32, 116, 35]);

@@ -1,4 +1,8 @@
 import * as Cesium from "cesium";
+/**
+ * 此文件包含内容：模型相关内容具体看注释
+ * 直接传入参数调用相关方法即可
+ */
 export function modelChange(viewer: Cesium.Viewer) {
   // osgbData(viewer);
   // tileData(viewer);

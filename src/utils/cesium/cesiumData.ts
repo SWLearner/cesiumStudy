@@ -1,5 +1,12 @@
 import * as Cesium from "cesium";
+/**
+ * 各种类型数据的加载：天地图、arcGIS在线影像图、本地地形、arcgis地形、geoserver发布wms以及wmts、高德地图、
+ *                    单张图片、geojson、kml、gltf、tiff、点云、倾斜模型、shp
+ * 包含内容：交互绘制、测量、场景打印、绘制标签
+ */
 /*
+
+
 // 谷歌地图
 const ELEC_URL =
   'http://mt{s}.google.cn/vt/lyrs=m@207000000&hl=zh-CN&gl=CN&src=app&x={x}&y={y}&z={z}&s=Galile'

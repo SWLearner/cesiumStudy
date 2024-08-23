@@ -1,4 +1,8 @@
 import * as Cesium from "cesium";
+/**
+ * 分析相关方法，包含内容：淹没分析
+ * 
+ */
 export function inundationAnalysis(viewer: Cesium.Viewer) {
   //开启深度检测
   viewer.scene.globe.depthTestAgainstTerrain = true;

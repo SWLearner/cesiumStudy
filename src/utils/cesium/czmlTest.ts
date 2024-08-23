@@ -1,5 +1,8 @@
 import * as Cesium from "cesium";
-
+/**
+ * czml结构文件模拟小车移动
+ * 直接调用loadCzml方法即可
+ */
 //定义 CZML 结构
 export function loadCzml(viewer: Cesium.Viewer) {
   let czml = [
