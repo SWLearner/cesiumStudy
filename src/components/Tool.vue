@@ -131,7 +131,8 @@
       </div>
     </el-popover>
     <el-button class="edit" size="large" type="primary" circle @click="tool.printScreenScene()">截图</el-button>
-    <el-button class="edit" size="large" type="primary" circle>放大</el-button>
+    <el-button class="edit" size="large" type="primary" circle @click="visibilityAnalysis(viewer)">通视</el-button>
+    <el-button class="edit" size="large" type="primary" circle @click="inundationAnalysis(viewer)">淹没</el-button>
     <el-button class="edit" size="large" type="primary" circle>缩小</el-button>
   </div>
 </template>
@@ -139,6 +140,7 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { mitBus } from "@/stores/mitt";
+import {visibilityAnalysis,inundationAnalysis} from '@/utils/cesium/analysisTool'
 // import { handlerDrawClick } from "@/utils/cesium/interactDraw";
 import {CesiumDrawTool} from '@/utils/cesium/cesiumTool'
 import {tdtOnline,arcGISOnline,gaoDeOnline,addWmsLayers,addWmtsLayers,addTmsLayers} from '@/utils/cesium/cesiumData'
