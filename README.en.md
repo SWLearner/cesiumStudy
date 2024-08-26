@@ -1,7 +1,7 @@
 # demo
 
 #### Description
-Openlayers、Cesium、思极
+Cesium、Vue3、Typescript
 
 #### Software Architecture
 Software architecture description
