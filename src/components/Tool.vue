@@ -133,14 +133,46 @@
     <el-button class="edit" size="large" type="primary" circle @click="tool.printScreenScene()">截图</el-button>
     <el-button class="edit" size="large" type="primary" circle @click="visibilityAnalysis(viewer)">通视</el-button>
     <el-button class="edit" size="large" type="primary" circle @click="inundationAnalysis(viewer)">淹没</el-button>
-    <el-button class="edit" size="large" type="primary" circle>缩小</el-button>
+    <el-popover class="popover" placement="left" width="340px" trigger="click">
+      <template #reference>
+        <el-button class="edit" size="large" type="primary" circle
+          >缓冲</el-button
+        >
+      </template>
+      <div>
+        <el-button
+          size="large"
+          type="primary"
+          name="Point"
+          circle
+          @click="addPointBuffer(viewer)"
+          >点</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="addLineBuffer(viewer)"
+          >线</el-button
+        >
+        <el-button
+          size="large"
+          type="primary"
+          name="LineString"
+          circle
+          @click="addPolygonBuffer(viewer)"
+          >面</el-button
+        >
+      </div>
+    </el-popover>
   </div>
 </template>
 
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { mitBus } from "@/stores/mitt";
-import {visibilityAnalysis,inundationAnalysis} from '@/utils/cesium/analysisTool'
+import {visibilityAnalysis,inundationAnalysis,addPointBuffer,addLineBuffer,addPolygonBuffer} from '@/utils/cesium/analysisTool'
 // import { handlerDrawClick } from "@/utils/cesium/interactDraw";
 import {CesiumDrawTool} from '@/utils/cesium/cesiumTool'
 import {tdtOnline,arcGISOnline,gaoDeOnline,addWmsLayers,addWmtsLayers,addTmsLayers} from '@/utils/cesium/cesiumData'

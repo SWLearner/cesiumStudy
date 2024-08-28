@@ -3,7 +3,7 @@ import * as Cesium from "cesium";
  * 分析相关方法，包含内容：淹没分析、通视分析
  *
  */
-// 淹没分析
+// 1.淹没分析
 export function inundationAnalysis(viewer: Cesium.Viewer) {
   //开启深度检测
   viewer.scene.globe.depthTestAgainstTerrain = true;
@@ -91,13 +91,12 @@ function addPoint(viewer: Cesium.Viewer, coordinates: Cesium.Cartesian3) {
   viewer.entities.add(point);
   return point;
 }
-// 通视分析
+// 2.通视分析
 interface lineType {
   coordinates: Cesium.Cartesian3[];
   color?: string;
 }
 function addLine(viewer: Cesium.Viewer, options: lineType) {
-  console.log("options.coordinates", options.coordinates);
   const line = new Cesium.Entity({
     // id: "line",
     name: "线",
@@ -120,21 +119,20 @@ function addLine(viewer: Cesium.Viewer, options: lineType) {
 }
 function startAnalyze(viewer: Cesium.Viewer, positions: Cesium.Cartesian3[]) {
   //计算两点分量差异
-  var subtract = Cesium.Cartesian3.subtract(
+  let subtract = Cesium.Cartesian3.subtract(
     positions[1], //目标点
     positions[0], //观察点
     new Cesium.Cartesian3()
   );
   //标准化计算射线方向
-  var direction = Cesium.Cartesian3.normalize(
+  let direction = Cesium.Cartesian3.normalize(
     subtract,
     new Cesium.Cartesian3()
   );
   //创建射线
-  var ray = new Cesium.Ray(positions[0], direction);
+  let ray = new Cesium.Ray(positions[0], direction);
   //计算交点
-  var result = viewer.scene.globe.pick(ray, viewer.scene); //返回第一个交点
-  console.log("result", ray, result);
+  let result = viewer.scene.globe.pick(ray, viewer.scene); //返回第一个交点
   //有交点
   if (result !== undefined && result !== null) {
     addLine(viewer, { coordinates: [result, positions[0]], color: "#008000" }); //可视
@@ -150,8 +148,8 @@ function startAnalyze(viewer: Cesium.Viewer, positions: Cesium.Cartesian3[]) {
 }
 export function visibilityAnalysis(viewer: Cesium.Viewer) {
   viewer.camera.setView({
-    destination:Cesium.Cartesian3.fromDegrees(87.193965,27.816681,5000)
-  })
+    destination: Cesium.Cartesian3.fromDegrees(87.193965, 27.816681, 5000),
+  });
   //存储观察点和目标点
   let positions: Cesium.Cartesian3[] = [];
   let handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
@@ -185,4 +183,80 @@ export function visibilityAnalysis(viewer: Cesium.Viewer) {
     handler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_CLICK);
     handler.destroy();
   }, Cesium.ScreenSpaceEventType.RIGHT_CLICK);
+}
+// 3.缓冲分析
+import { CesiumDrawTool } from "@/utils/cesium/cesiumTool";
+import * as turf from "@turf/turf";
+// 创建缓冲区
+//添加缓冲区
+function addBuffer(viewer: Cesium.Viewer, positions: number[],hole?:Cesium.Cartesian3[],) {
+  viewer.entities.add({
+    polygon: {
+      // hierarchy: new Cesium.PolygonHierarchy(Cesium.Cartesian3.fromDegreesArray(positions)),
+      //获取指定属性 positions 和 holes（图形内需要挖空的区域）
+      hierarchy: new Cesium.PolygonHierarchy(Cesium.Cartesian3.fromDegreesArray(positions), [
+        new Cesium.PolygonHierarchy(hole),
+      ]),
+      material: Cesium.Color.RED.withAlpha(0.7),
+    },
+  });
+}
+//格式转换，将点数据拆分、合并成一个大数组
+function pointsFormatConv(points: any[][]) {
+  let degreesArray: number[] = [];
+  //拆分、合并
+  points.map((item) => {
+    degreesArray.push(item[0]);
+    degreesArray.push(item[1]);
+  });
+  return degreesArray;
+}
+/**
+ * 将Cesium.Cartesian3[]格式的坐标转换为turf生成feature需要的坐标格式
+ * @param points 绘制的线或者面的坐标数组
+ * @returns 坐标点二维数组
+ */
+function cartesianConv(points:Cesium.Cartesian3[]){
+  const result:number[][]=[]
+  points.map(item=>{
+    const cartographic=Cesium.Cartographic.fromCartesian(item)
+    result.push([Cesium.Math.toDegrees(cartographic.longitude),Cesium.Math.toDegrees(cartographic.latitude)])
+  })
+  return result
+}
+export function addPointBuffer(viewer: Cesium.Viewer) {
+  let tool: CesiumDrawTool = new CesiumDrawTool(viewer);
+  function pointBuffer(positions: Cesium.Cartesian3) {
+    const coordinates = Cesium.Cartographic.fromCartesian(positions);
+    let point = turf.point([
+      Cesium.Math.toDegrees(coordinates.longitude),
+      Cesium.Math.toDegrees(coordinates.latitude),
+    ]);
+    let buffered = turf.buffer(point, 50, { units: "kilometers" });
+    buffered&&addBuffer(viewer,pointsFormatConv(buffered?.geometry.coordinates[0]))
+  }
+  tool.draw("point", pointBuffer);
+}
+export function addLineBuffer(viewer: Cesium.Viewer) {
+  let tool: CesiumDrawTool = new CesiumDrawTool(viewer);
+  function lineBuffer(positions: Cesium.Cartesian3[]) {
+    const coordinates = cartesianConv(positions);
+    let line = turf.lineString(coordinates);
+    let buffered = turf.buffer(line, 50, { units: "kilometers" });
+    buffered&&addBuffer(viewer,pointsFormatConv(buffered?.geometry.coordinates[0]))
+  }
+  tool.draw("line", lineBuffer);
+}
+export function addPolygonBuffer(viewer: Cesium.Viewer) {
+  let tool: CesiumDrawTool = new CesiumDrawTool(viewer);
+  function polygonBuffer(positions: Cesium.Cartesian3[]) {
+    const coordinates = cartesianConv(positions);
+    // 面还需要放入第一个点的坐标以形成闭环
+    const cartographic=Cesium.Cartographic.fromCartesian(positions[0])
+    coordinates.push([Cesium.Math.toDegrees(cartographic.longitude),Cesium.Math.toDegrees(cartographic.latitude)])
+    let polygon = turf.polygon([coordinates]);
+    let buffered = turf.buffer(polygon, 50, { units: "kilometers" });
+    buffered&&addBuffer(viewer,pointsFormatConv(buffered?.geometry.coordinates[0]),positions)
+  }
+  tool.draw("polygon", polygonBuffer);
 }

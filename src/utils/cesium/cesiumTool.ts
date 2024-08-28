@@ -3,6 +3,7 @@ import * as Cesium from "cesium";
  * 该类基于同目录下的interactDraw.ts文件进行类封装
  * 包含内容：交互绘制、测量、场景打印、绘制标签
  */
+type drawingModeType="point"|"line"|"polygon"|"circle"|"rectangle"
 export class CesiumDrawTool {
   public viewer: Cesium.Viewer;
   private handler: Cesium.ScreenSpaceEventHandler;
@@ -12,8 +13,12 @@ export class CesiumDrawTool {
     this.handler = new Cesium.ScreenSpaceEventHandler(this.viewer.canvas);
     // this.getPosition()
   }
-  //   绘制
-  public draw(drawingMode: string) {
+  /**
+   * 绘制
+   * @param drawingMode 绘制图形类型
+   * @param callBack 回调函数,返回绘制完成的图形坐标
+   */
+  public draw(drawingMode: drawingModeType, callBack?: Function) {
     if (this.handler) this.removeHandler();
     this.viewer.scene.globe.depthTestAgainstTerrain = true;
     let activeShapePoints: any[] = []; //存储动态点数组
@@ -27,6 +32,7 @@ export class CesiumDrawTool {
       let earthPosition = _this.viewer.scene.pickPosition(event.position);
       if (drawingMode == "point") {
         _this.drawShape(earthPosition, drawingMode); //绘制点
+        callBack && callBack(earthPosition);
       }
       //如果鼠标指针不在地球上，则 earthPosition 未定义
       else if (
@@ -75,6 +81,7 @@ export class CesiumDrawTool {
       if (activeShapePoints.length) {
         //绘制最终图形
         _this.drawShape(activeShapePoints, drawingMode);
+        callBack && callBack(activeShapePoints);
       }
       //移除第一个点
       _this.viewer.entities.remove(floatingPoint);
@@ -249,15 +256,15 @@ export class CesiumDrawTool {
     }, Cesium.ScreenSpaceEventType.RIGHT_CLICK);
   }
   //  场景打印
-  public printScreenScene(name:string='当前场景') { 
+  public printScreenScene(name: string = "当前场景") {
     this.viewer.render(); //重新渲染界面
     let imageUrl = this.viewer.scene.canvas.toDataURL("image/png"); //获取下载链接
-    let saveLink = document.createElement('a'); //创建下载链接标签<a> 
+    let saveLink = document.createElement("a"); //创建下载链接标签<a>
     saveLink.href = imageUrl; //设置下载链接
     saveLink.download = name; //设置下载图片名称
     document.body.appendChild(saveLink); //将<a>标签添加到 body 中
     saveLink.click(); //单击<a>标签
-  } 
+  }
   //   绘制画几何体方法
   private drawShape(positionData: any, drawingMode: string) {
     let shape;
@@ -268,8 +275,9 @@ export class CesiumDrawTool {
           color: Cesium.Color.GOLD, //颜色
           pixelSize: 10, //大小
           outlineColor: Cesium.Color.YELLOW, //轮廓颜色，
+          disableDepthTestDistance:Number.POSITIVE_INFINITY,
           // 设置贴地
-          // heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+          heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
         },
       });
     }
@@ -281,6 +289,9 @@ export class CesiumDrawTool {
           material: new Cesium.PolylineGlowMaterialProperty({
             color: Cesium.Color.GOLD,
           }),
+          depthFailMaterial: new Cesium.PolylineGlowMaterialProperty({
+            color: Cesium.Color.GOLD,
+          }), //指定折线低于地形时用于绘制折线的材料
           clampToGround: true,
         },
       });
