@@ -34,6 +34,7 @@ async function iniMap() {
     });
     //开启地形检测
     viewer.scene.globe.depthTestAgainstTerrain = true;
+    // 开启地下模式
     // viewer.scene.screenSpaceCameraController.enableCollisionDetection = false;
   } catch (error) {
     console.log(error);

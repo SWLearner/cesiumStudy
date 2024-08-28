@@ -189,14 +189,19 @@ import { CesiumDrawTool } from "@/utils/cesium/cesiumTool";
 import * as turf from "@turf/turf";
 // 创建缓冲区
 //添加缓冲区
-function addBuffer(viewer: Cesium.Viewer, positions: number[],hole?:Cesium.Cartesian3[],) {
+function addBuffer(
+  viewer: Cesium.Viewer,
+  positions: number[],
+  hole?: Cesium.Cartesian3[]
+) {
   viewer.entities.add({
     polygon: {
       // hierarchy: new Cesium.PolygonHierarchy(Cesium.Cartesian3.fromDegreesArray(positions)),
       //获取指定属性 positions 和 holes（图形内需要挖空的区域）
-      hierarchy: new Cesium.PolygonHierarchy(Cesium.Cartesian3.fromDegreesArray(positions), [
-        new Cesium.PolygonHierarchy(hole),
-      ]),
+      hierarchy: new Cesium.PolygonHierarchy(
+        Cesium.Cartesian3.fromDegreesArray(positions),
+        [new Cesium.PolygonHierarchy(hole)]
+      ),
       material: Cesium.Color.RED.withAlpha(0.7),
     },
   });
@@ -216,13 +221,16 @@ function pointsFormatConv(points: any[][]) {
  * @param points 绘制的线或者面的坐标数组
  * @returns 坐标点二维数组
  */
-function cartesianConv(points:Cesium.Cartesian3[]){
-  const result:number[][]=[]
-  points.map(item=>{
-    const cartographic=Cesium.Cartographic.fromCartesian(item)
-    result.push([Cesium.Math.toDegrees(cartographic.longitude),Cesium.Math.toDegrees(cartographic.latitude)])
-  })
-  return result
+function cartesianConv(points: Cesium.Cartesian3[]) {
+  const result: number[][] = [];
+  points.map((item) => {
+    const cartographic = Cesium.Cartographic.fromCartesian(item);
+    result.push([
+      Cesium.Math.toDegrees(cartographic.longitude),
+      Cesium.Math.toDegrees(cartographic.latitude),
+    ]);
+  });
+  return result;
 }
 export function addPointBuffer(viewer: Cesium.Viewer) {
   let tool: CesiumDrawTool = new CesiumDrawTool(viewer);
@@ -233,7 +241,8 @@ export function addPointBuffer(viewer: Cesium.Viewer) {
       Cesium.Math.toDegrees(coordinates.latitude),
     ]);
     let buffered = turf.buffer(point, 50, { units: "kilometers" });
-    buffered&&addBuffer(viewer,pointsFormatConv(buffered?.geometry.coordinates[0]))
+    buffered &&
+      addBuffer(viewer, pointsFormatConv(buffered?.geometry.coordinates[0]));
   }
   tool.draw("point", pointBuffer);
 }
@@ -243,7 +252,8 @@ export function addLineBuffer(viewer: Cesium.Viewer) {
     const coordinates = cartesianConv(positions);
     let line = turf.lineString(coordinates);
     let buffered = turf.buffer(line, 50, { units: "kilometers" });
-    buffered&&addBuffer(viewer,pointsFormatConv(buffered?.geometry.coordinates[0]))
+    buffered &&
+      addBuffer(viewer, pointsFormatConv(buffered?.geometry.coordinates[0]));
   }
   tool.draw("line", lineBuffer);
 }
@@ -252,58 +262,97 @@ export function addPolygonBuffer(viewer: Cesium.Viewer) {
   function polygonBuffer(positions: Cesium.Cartesian3[]) {
     const coordinates = cartesianConv(positions);
     // 面还需要放入第一个点的坐标以形成闭环
-    const cartographic=Cesium.Cartographic.fromCartesian(positions[0])
-    coordinates.push([Cesium.Math.toDegrees(cartographic.longitude),Cesium.Math.toDegrees(cartographic.latitude)])
+    const cartographic = Cesium.Cartographic.fromCartesian(positions[0]);
+    coordinates.push([
+      Cesium.Math.toDegrees(cartographic.longitude),
+      Cesium.Math.toDegrees(cartographic.latitude),
+    ]);
     let polygon = turf.polygon([coordinates]);
     let buffered = turf.buffer(polygon, 50, { units: "kilometers" });
-    buffered&&addBuffer(viewer,pointsFormatConv(buffered?.geometry.coordinates[0]),positions)
+    buffered &&
+      addBuffer(
+        viewer,
+        pointsFormatConv(buffered?.geometry.coordinates[0]),
+        positions
+      );
   }
   tool.draw("polygon", polygonBuffer);
 }
 // 聚合
-export function clusterTest(viewer: Cesium.Viewer){
- let pinBuilder=new Cesium.PinBuilder()
- let pin100=pinBuilder.fromText("100+",Cesium.Color.RED,70).toDataURL()
- let pin70=pinBuilder.fromText("70+",Cesium.Color.GOLD,65).toDataURL()
- let pin50=pinBuilder.fromText("50+",Cesium.Color.BLUE,60).toDataURL()
- let pin40=pinBuilder.fromText("40+",Cesium.Color.GREEN,55).toDataURL()
- let pin30=pinBuilder.fromText("30+",Cesium.Color.YELLOW,50).toDataURL()
- let pin20=pinBuilder.fromText("20+",Cesium.Color.CYAN,45).toDataURL()
- let pin10=pinBuilder.fromText("10+",Cesium.Color.AZURE,40).toDataURL()
- let singleDigitPins=new Array(9)
- for(let i=0;i<singleDigitPins.length;i++){
-  singleDigitPins[i]=pinBuilder.fromText(""+(i+2),Cesium.Color.VIOLET,40).toDataURL()
- }
- let kmlDataSource=viewer.dataSources.add(Cesium.KmlDataSource.load("../../../src/assets/data/kml/facilities.kml"))
- kmlDataSource.then((dataSource)=>{
-  // 是否开启聚合
-  dataSource.clustering.enabled=true
-  // 聚合像素范围
-  dataSource.clustering.pixelRange=36
-  // 聚合最小数
-  dataSource.clustering.minimumClusterSize=2
-  dataSource.clustering.clusterEvent.addEventListener(function(clusteredEntities,cluster){
-    cluster.label.show=false
-    cluster.billboard.show=true
-    cluster.billboard.id=cluster.label.id
-    cluster.billboard.verticalOrigin=Cesium.VerticalOrigin.BOTTOM
-    if(clusteredEntities.length>=100){
-      cluster.billboard.image=pin100
-    }else if(clusteredEntities.length>=70){
-      cluster.billboard.image=pin70
-    }else if(clusteredEntities.length>=50){
-      cluster.billboard.image=pin50
-    }else if(clusteredEntities.length>=40){
-      cluster.billboard.image=pin40
-    }else if(clusteredEntities.length>=30){
-      cluster.billboard.image=pin30
-    }else if(clusteredEntities.length>=20){
-      cluster.billboard.image=pin20
-    }else if(clusteredEntities.length>=10){
-      cluster.billboard.image=pin10
-    }else{
-      cluster.billboard.image=singleDigitPins[clusteredEntities.length-2]
-    }
-  })
- })
+export function clusterTest(viewer: Cesium.Viewer) {
+  let pinBuilder = new Cesium.PinBuilder();
+  let pin100 = pinBuilder.fromText("100+", Cesium.Color.RED, 70).toDataURL();
+  let pin70 = pinBuilder.fromText("70+", Cesium.Color.GOLD, 65).toDataURL();
+  let pin50 = pinBuilder.fromText("50+", Cesium.Color.BLUE, 60).toDataURL();
+  let pin40 = pinBuilder.fromText("40+", Cesium.Color.GREEN, 55).toDataURL();
+  let pin30 = pinBuilder.fromText("30+", Cesium.Color.YELLOW, 50).toDataURL();
+  let pin20 = pinBuilder.fromText("20+", Cesium.Color.CYAN, 45).toDataURL();
+  let pin10 = pinBuilder.fromText("10+", Cesium.Color.AZURE, 40).toDataURL();
+  let singleDigitPins = new Array(9);
+  for (let i = 0; i < singleDigitPins.length; i++) {
+    singleDigitPins[i] = pinBuilder
+      .fromText("" + (i + 2), Cesium.Color.VIOLET, 40)
+      .toDataURL();
+  }
+  let kmlDataSource = viewer.dataSources.add(
+    Cesium.KmlDataSource.load("../../../src/assets/data/kml/facilities.kml")
+  );
+  kmlDataSource.then((dataSource) => {
+    // 是否开启聚合
+    dataSource.clustering.enabled = true;
+    // 聚合像素范围
+    dataSource.clustering.pixelRange = 36;
+    // 聚合最小数
+    dataSource.clustering.minimumClusterSize = 2;
+    dataSource.clustering.clusterEvent.addEventListener(function (
+      clusteredEntities,
+      cluster
+    ) {
+      cluster.label.show = false;
+      cluster.billboard.show = true;
+      cluster.billboard.id = cluster.label.id;
+      cluster.billboard.verticalOrigin = Cesium.VerticalOrigin.BOTTOM;
+      if (clusteredEntities.length >= 100) {
+        cluster.billboard.image = pin100;
+      } else if (clusteredEntities.length >= 70) {
+        cluster.billboard.image = pin70;
+      } else if (clusteredEntities.length >= 50) {
+        cluster.billboard.image = pin50;
+      } else if (clusteredEntities.length >= 40) {
+        cluster.billboard.image = pin40;
+      } else if (clusteredEntities.length >= 30) {
+        cluster.billboard.image = pin30;
+      } else if (clusteredEntities.length >= 20) {
+        cluster.billboard.image = pin20;
+      } else if (clusteredEntities.length >= 10) {
+        cluster.billboard.image = pin10;
+      } else {
+        cluster.billboard.image = singleDigitPins[clusteredEntities.length - 2];
+      }
+    });
+  });
+}
+// 等高线
+export function contour(viewer: Cesium.Viewer) {
+  let material = Cesium.Material.fromType("ElevationContour");
+  let contourUniforms = {
+    spacing: 150,
+    width: 2,
+    color: Cesium.Color.RED,
+  };
+  material.uniforms = contourUniforms;
+  viewer.scene.globe.material = material;
+  //将相机视角定位到珠穆朗玛峰附近
+  viewer.camera.setView({
+    destination: new Cesium.Cartesian3(
+      282157.6960889096,
+      5638892.465594703,
+      2978736.186473513
+    ),
+    orientation: {
+      heading: 4.747266966349747,
+      pitch: -0.2206998858596192,
+      roll: 6.280340554587955,
+    },
+  });
 }
