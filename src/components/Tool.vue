@@ -133,7 +133,7 @@
     <el-button class="edit" size="large" type="primary" circle @click="tool.printScreenScene()">截图</el-button>
     <el-button class="edit" size="large" type="primary" circle @click="visibilityAnalysis(viewer)">通视</el-button>
     <el-button class="edit" size="large" type="primary" circle @click="inundationAnalysis(viewer)">淹没</el-button>
-    <el-popover class="popover" placement="left" width="340px" trigger="click">
+    <el-popover class="popover" placement="left" width="180px" trigger="click">
       <template #reference>
         <el-button class="edit" size="large" type="primary" circle
           >缓冲</el-button
@@ -172,7 +172,7 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { mitBus } from "@/stores/mitt";
-import {visibilityAnalysis,inundationAnalysis,addPointBuffer,addLineBuffer,addPolygonBuffer} from '@/utils/cesium/analysisTool'
+import {visibilityAnalysis,inundationAnalysis,addPointBuffer,addLineBuffer,addPolygonBuffer,clusterTest} from '@/utils/cesium/analysisTool'
 // import { handlerDrawClick } from "@/utils/cesium/interactDraw";
 import {CesiumDrawTool} from '@/utils/cesium/cesiumTool'
 import {tdtOnline,arcGISOnline,gaoDeOnline,addWmsLayers,addWmtsLayers,addTmsLayers} from '@/utils/cesium/cesiumData'
@@ -184,6 +184,7 @@ onMounted(() => {
     //开启地形检测
     viewer.scene.globe.depthTestAgainstTerrain = true;
     tool=new CesiumDrawTool(viewer)
+    clusterTest(viewer)
     // 地图
   });
 });

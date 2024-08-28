@@ -260,3 +260,50 @@ export function addPolygonBuffer(viewer: Cesium.Viewer) {
   }
   tool.draw("polygon", polygonBuffer);
 }
+// 聚合
+export function clusterTest(viewer: Cesium.Viewer){
+ let pinBuilder=new Cesium.PinBuilder()
+ let pin100=pinBuilder.fromText("100+",Cesium.Color.RED,70).toDataURL()
+ let pin70=pinBuilder.fromText("70+",Cesium.Color.GOLD,65).toDataURL()
+ let pin50=pinBuilder.fromText("50+",Cesium.Color.BLUE,60).toDataURL()
+ let pin40=pinBuilder.fromText("40+",Cesium.Color.GREEN,55).toDataURL()
+ let pin30=pinBuilder.fromText("30+",Cesium.Color.YELLOW,50).toDataURL()
+ let pin20=pinBuilder.fromText("20+",Cesium.Color.CYAN,45).toDataURL()
+ let pin10=pinBuilder.fromText("10+",Cesium.Color.AZURE,40).toDataURL()
+ let singleDigitPins=new Array(9)
+ for(let i=0;i<singleDigitPins.length;i++){
+  singleDigitPins[i]=pinBuilder.fromText(""+(i+2),Cesium.Color.VIOLET,40).toDataURL()
+ }
+ let kmlDataSource=viewer.dataSources.add(Cesium.KmlDataSource.load("../../../src/assets/data/kml/facilities.kml"))
+ kmlDataSource.then((dataSource)=>{
+  // 是否开启聚合
+  dataSource.clustering.enabled=true
+  // 聚合像素范围
+  dataSource.clustering.pixelRange=36
+  // 聚合最小数
+  dataSource.clustering.minimumClusterSize=2
+  dataSource.clustering.clusterEvent.addEventListener(function(clusteredEntities,cluster){
+    cluster.label.show=false
+    cluster.billboard.show=true
+    cluster.billboard.id=cluster.label.id
+    cluster.billboard.verticalOrigin=Cesium.VerticalOrigin.BOTTOM
+    if(clusteredEntities.length>=100){
+      cluster.billboard.image=pin100
+    }else if(clusteredEntities.length>=70){
+      cluster.billboard.image=pin70
+    }else if(clusteredEntities.length>=50){
+      cluster.billboard.image=pin50
+    }else if(clusteredEntities.length>=40){
+      cluster.billboard.image=pin40
+    }else if(clusteredEntities.length>=30){
+      cluster.billboard.image=pin30
+    }else if(clusteredEntities.length>=20){
+      cluster.billboard.image=pin20
+    }else if(clusteredEntities.length>=10){
+      cluster.billboard.image=pin10
+    }else{
+      cluster.billboard.image=singleDigitPins[clusteredEntities.length-2]
+    }
+  })
+ })
+}
