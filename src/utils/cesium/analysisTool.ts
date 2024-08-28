@@ -356,3 +356,69 @@ export function contour(viewer: Cesium.Viewer) {
     },
   });
 }
+// 坡度坡向
+type shapeType = "slope" | "aspect";
+function getColorRamp(viewer: Cesium.Viewer, shapeType: shapeType) {
+  //开启光照
+  viewer.scene.globe.enableLighting = true;
+  //定义颜色梯度数组
+  const slopeRamp = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6];
+  const aspectRamp = [0.0, 0.2, 0.4, 0.6, 0.8, 0.9, 1.0];
+  const ramp = document.createElement("canvas");
+  ramp.width = 100;
+  ramp.height = 1;
+  const ctx = ramp.getContext("2d");
+  let values;
+  if (shapeType === "slope") {
+    values = slopeRamp;
+  } else if (shapeType === "aspect") {
+    values = aspectRamp;
+  }
+  // 创建线性渐变的画布内容
+  const grd = ctx!.createLinearGradient(0, 0, 100, 0);
+  // 规定渐变对象中的颜色和停止位置
+  //规定渐变对象中的颜色和停止位置
+  grd!.addColorStop(values![0], "#b6d7a8");
+  grd!.addColorStop(values![1], "#a2c4c9");
+  grd!.addColorStop(values![2], "#a4c2f4");
+  grd!.addColorStop(values![3], "#6d9eeb");
+  grd!.addColorStop(values![4], "#3c78d8");
+  grd!.addColorStop(values![5], "#1c4587");
+  grd!.addColorStop(values![6], "#20124d");
+  //设置填充样式
+  ctx!.fillStyle = grd;
+  //绘制填充矩形
+  ctx!.fillRect(0, 0, 100, 1);
+  return ramp;
+}
+export function slopeOrAspectAnalyze(
+  viewer: Cesium.Viewer,
+  shapeType: shapeType
+) {
+  let shapingUniform = {
+    image:getColorRamp(viewer, "aspect")
+  };
+  let material;
+  if (shapeType === "aspect") {
+    material = Cesium.Material.fromType("AspectRamp");
+    material.uniforms = shapingUniform;
+  } else if (shapeType === "slope") {
+    material = Cesium.Material.fromType("SlopeRamp");
+    shapingUniform.image = getColorRamp(viewer, "slope");
+    material.uniforms = shapingUniform;
+  }
+  viewer.scene.globe.material = material;
+   //将相机视角定位到珠穆朗玛峰附近
+   viewer.camera.setView({
+    destination: new Cesium.Cartesian3(
+      282157.6960889096,
+      5638892.465594703,
+      2978736.186473513
+    ),
+    orientation: {
+      heading: 4.747266966349747,
+      pitch: -0.2206998858596192,
+      roll: 6.280340554587955,
+    },
+  });
+}

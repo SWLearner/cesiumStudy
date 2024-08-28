@@ -27,7 +27,10 @@ async function iniMap() {
       //   requestWaterMask: true,
       //   requestVertexNormals: true
       // }),
-      terrainProvider: await Cesium.createWorldTerrainAsync(),
+      terrainProvider: await Cesium.createWorldTerrainAsync({
+        // 可视化坡度必须开启
+        requestVertexNormals:true
+      }),
       // terrainProvider:await Cesium.ArcGISTiledElevationTerrainProvider.fromUrl("https://services.arcgisonline.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer"),
       //显示模型阴影
       shadows: true,

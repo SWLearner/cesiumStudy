@@ -172,7 +172,7 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { mitBus } from "@/stores/mitt";
-import {visibilityAnalysis,inundationAnalysis,addPointBuffer,addLineBuffer,addPolygonBuffer,clusterTest,contour} from '@/utils/cesium/analysisTool'
+import {visibilityAnalysis,inundationAnalysis,addPointBuffer,addLineBuffer,addPolygonBuffer,slopeOrAspectAnalyze} from '@/utils/cesium/analysisTool'
 // import { handlerDrawClick } from "@/utils/cesium/interactDraw";
 import {CesiumDrawTool} from '@/utils/cesium/cesiumTool'
 import {tdtOnline,arcGISOnline,gaoDeOnline,addWmsLayers,addWmtsLayers,addTmsLayers} from '@/utils/cesium/cesiumData'
@@ -184,7 +184,7 @@ onMounted(() => {
     //开启地形检测
     viewer.scene.globe.depthTestAgainstTerrain = true;
     tool=new CesiumDrawTool(viewer)
-    contour(viewer)
+    slopeOrAspectAnalyze(viewer,"slope")
     // 地图
   });
 });
